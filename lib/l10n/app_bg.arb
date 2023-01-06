@@ -1,0 +1,599 @@
+{
+  "@@locale": "bg",
+  "datatransfer__device_could_not_be_registered": "Устройството не можа да бъде регистрирано!",
+  "@datatransfer__device_could_not_be_registered": {
+    "type": "text"
+  },
+  "datatransfer__device_has_been_registered": "Устройството беше регистрирано!",
+  "@datatransfer__device_has_been_registered": {
+    "type": "text"
+  },
+  "dispohz__product_not_in_file": "Dispo не е налично във файла за намаляване на цени!",
+  "@dispohz__product_not_in_file": {
+    "type": "text"
+  },
+  "duplicator__please_scan_old_price": "Моля, сканирайте старата цена!",
+  "@duplicator__please_scan_old_price": {
+    "type": "text"
+  },
+  "duplicator__please_scan_red_price": "Моля, сканирайте намалената цена в червено!",
+  "@duplicator__please_scan_red_price": {
+    "type": "text"
+  },
+  "duplicator__red_price_too_high": "Намалената цена в червено е прекалено висока!",
+  "@duplicator__red_price_too_high": {
+    "type": "text"
+  },
+  "general__amount_short": "Бр.",
+  "@general__amount_short": {
+    "type": "text"
+  },
+  "general__do_you_really_want_to_hold_current_item": "Трябва ли актуалната позиция действително да се паркира?",
+  "@general__do_you_really_want_to_hold_current_item": {
+    "type": "text"
+  },
+  "general__invalid_barcode": "Невалиден баркод",
+  "@general__invalid_barcode": {
+    "type": "text"
+  },
+  "general__invalid_barcode_scanned": "Сканиран е грешен баркод\n{value0}",
+  "@general__invalid_barcode_scanned": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "general__invalid_checkdigit": "Кодът за проверка е неправилен",
+  "@general__invalid_checkdigit": {
+    "type": "text"
+  },
+  "general__invalid_country": "Грешна страна",
+  "@general__invalid_country": {
+    "type": "text"
+  },
+  "general__invalid_ean13": "Невалиден EAN13",
+  "@general__invalid_ean13": {
+    "type": "text"
+  },
+  "general__invalid_ean8": "Невалиден EAN8",
+  "@general__invalid_ean8": {
+    "type": "text"
+  },
+  "general__invalid_employee_number": "Персоналният номер е невалиден",
+  "@general__invalid_employee_number": {
+    "type": "text"
+  },
+  "general__invalid_input": "Невалидно въвеждане",
+  "@general__invalid_input": {
+    "type": "text"
+  },
+  "general__invalid_item_number": "Невалиден номер на части",
+  "@general__invalid_item_number": {
+    "type": "text"
+  },
+  "general__item_number_short": "№ на части",
+  "@general__item_number_short": {
+    "type": "text"
+  },
+  "general__next": "Продължи",
+  "@general__next": {
+    "type": "text"
+  },
+  "general__no": "Не",
+  "@general__no": {
+    "type": "text"
+  },
+  "general__no_base_data": "На устройството няма данни за наличности!",
+  "@general__no_base_data": {
+    "type": "text"
+  },
+  "general__no_hz_info_for_this_item": "Няма HZ информация за тази част",
+  "@general__no_hz_info_for_this_item": {
+    "type": "text"
+  },
+  "general__ok": "OK",
+  "@general__ok": {
+    "type": "text"
+  },
+  "general__order_number": "№ на поръчка",
+  "@general__order_number": {
+    "type": "text"
+  },
+  "general__please_scan_label": "Моля, сканирайте етикета",
+  "@general__please_scan_label": {
+    "type": "text"
+  },
+  "general__product": "EH-Artikel",
+  "@general__product": {
+    "type": "text"
+  },
+  "general__product_has_different_red_prices": "EH-Artikel има размери с различна информация за цената. Трябва ли намалената цена в червено да се отпечата въпреки това?",
+  "@general__product_has_different_red_prices": {
+    "type": "text"
+  },
+  "general__quantity": "Бройки",
+  "@general__quantity": {
+    "type": "text"
+  },
+  "general__red_price": "Намалена продажна цена в червено",
+  "@general__red_price": {
+    "type": "text"
+  },
+  "general__redprices_identically": "Намалените цени в червено са идентични",
+  "@general__redprices_identically": {
+    "type": "text"
+  },
+  "general__size": "Размер",
+  "@general__size": {
+    "type": "text"
+  },
+  "general__storage_location": "Място за разполагане",
+  "@general__storage_location": {
+    "type": "text"
+  },
+  "general__version": "Версия",
+  "@general__version": {
+    "type": "text"
+  },
+  "general__yes": "Да",
+  "@general__yes": {
+    "type": "text"
+  },
+  "mbinfo__min_amount": "Кол. нал.",
+  "@mbinfo__min_amount": {
+    "type": "text"
+  },
+  "mbinfo__no_product_info": "Няма информация за EH-Artikel",
+  "@mbinfo__no_product_info": {
+    "type": "text"
+  },
+  "mbinfo__on_selling": "в VK",
+  "@mbinfo__on_selling": {
+    "type": "text"
+  },
+  "mbinfo__sum": "Общо",
+  "@mbinfo__sum": {
+    "type": "text"
+  },
+  "menu__app_data_transfer": "Трансфер на данни",
+  "@menu__app_data_transfer": {
+    "type": "text"
+  },
+  "menu__app_duplicator": "Дубликатор",
+  "@menu__app_duplicator": {
+    "type": "text"
+  },
+  "menu__app_pl07_item_movement": "Завеждане на склад/прехвърляне в друг склад",
+  "@menu__app_pl07_item_movement": {
+    "type": "text"
+  },
+  "menu__app_pl07_missing_items": "Липсващи части",
+  "@menu__app_pl07_missing_items": {
+    "type": "text"
+  },
+  "menu__app_pl07_pick_instruction": "Изтегляне",
+  "@menu__app_pl07_pick_instruction": {
+    "type": "text"
+  },
+  "menu__app_pl07_red_prices_old": "Намалени цени в червено",
+  "@menu__app_pl07_red_prices_old": {
+    "type": "text"
+  },
+  "menu__app_pl07_red_prices_selling_area": "Намалени цени в червено VK",
+  "@menu__app_pl07_red_prices_selling_area": {
+    "type": "text"
+  },
+  "menu__app_pl07_stock_arrival_mb_info_product_info": "Информация за EH-Artikel",
+  "@menu__app_pl07_stock_arrival_mb_info_product_info": {
+    "type": "text"
+  },
+  "menu__app_pl07_ware_transfer": "Транспорт на стоки",
+  "@menu__app_pl07_ware_transfer": {
+    "type": "text"
+  },
+  "menu__app_service_point": "Сервизен пункт",
+  "@menu__app_service_point": {
+    "type": "text"
+  },
+  "menu__app_stocktaking_selling_area": "Инвентаризация VK",
+  "@menu__app_stocktaking_selling_area": {
+    "type": "text"
+  },
+  "menu__app_stocktaking_stock": "Инвентаризация склад",
+  "@menu__app_stocktaking_stock": {
+    "type": "text"
+  },
+  "menu__pl07_stock_arrival": "Постъпване на стоки",
+  "@menu__pl07_stock_arrival": {
+    "type": "text"
+  },
+  "menu__settings": "Настройки",
+  "@menu__settings": {
+    "type": "text"
+  },
+  "menu__stocktaking": "Складова наличност",
+  "@menu__stocktaking": {
+    "type": "text"
+  },
+  "missing_item__item_is_no_missing_item": "Съгласно системата тази част не е липсваща",
+  "@missing_item__item_is_no_missing_item": {
+    "type": "text"
+  },
+  "missing_item__missing_item_dest_form": "Липсващи части целево място на разполагане",
+  "@missing_item__missing_item_dest_form": {
+    "type": "text"
+  },
+  "missing_item__missing_item_search_complete": "Търсенето на липсващи части е напълно завършено. Моля, прехвърлете данните на мястото за данни за наличност чрез основното меню „Каса“!",
+  "@missing_item__missing_item_search_complete": {
+    "type": "text"
+  },
+  "missing_item__reason_1": "Пропусната",
+  "@missing_item__reason_1": {
+    "type": "text"
+  },
+  "missing_item__reason_2": "Грешно кодиране",
+  "@missing_item__reason_2": {
+    "type": "text"
+  },
+  "missing_item__reason_3": "Неправилно място на разполагане",
+  "@missing_item__reason_3": {
+    "type": "text"
+  },
+  "missing_item__reason_4": "В продажба",
+  "@missing_item__reason_4": {
+    "type": "text"
+  },
+  "missing_item__reason_5": "Друго",
+  "@missing_item__reason_5": {
+    "type": "text"
+  },
+  "missing_item__reason_form": "Основание за липсваща част",
+  "@missing_item__reason_form": {
+    "type": "text"
+  },
+  "missing_item__search_complete": "Търсенето на липсващи части е напълно завършено. Моля, прехвърлете данните на мястото за данни за наличност чрез основното меню „Каса“!",
+  "@missing_item__search_complete": {
+    "type": "text"
+  },
+  "missing_item__search_form": "Липсващи части ({value0})",
+  "@missing_item__search_form": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "pick_instruction__amount": "Бр.",
+  "@pick_instruction__amount": {
+    "type": "text"
+  },
+  "pick_instruction__dest_branch": "Целеви магазин",
+  "@pick_instruction__dest_branch": {
+    "type": "text"
+  },
+  "pick_instruction__error_during_save": "Грешка при запаметяване на данните",
+  "@pick_instruction__error_during_save": {
+    "type": "text"
+  },
+  "pick_instruction__error_no_more_data": "Няма други данни",
+  "@pick_instruction__error_no_more_data": {
+    "type": "text"
+  },
+  "pick_instruction__floor": "Етаж",
+  "@pick_instruction__floor": {
+    "type": "text"
+  },
+  "pick_instruction__hold_item": "Паркиране",
+  "@pick_instruction__hold_item": {
+    "type": "text"
+  },
+  "pick_instruction__image": "Изображение",
+  "@pick_instruction__image": {
+    "type": "text"
+  },
+  "pick_instruction__is_stock_empty_now": "Сега мястото за разполагане\n{value0}\nпразно ли е?",
+  "@pick_instruction__is_stock_empty_now": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "pick_instruction__item_already_picked": "Частта вече е изтеглена",
+  "@pick_instruction__item_already_picked": {
+    "type": "text"
+  },
+  "pick_instruction__item_doesnt_exists_in_system": "Съгласно системата тази част не е налична",
+  "@pick_instruction__item_doesnt_exists_in_system": {
+    "type": "text"
+  },
+  "pick_instruction__item_has_wrong_size": "Частта има грешен размер",
+  "@pick_instruction__item_has_wrong_size": {
+    "type": "text"
+  },
+  "pick_instruction__item_invalid_place": "Тази част според системата не е на това място за разполагане.\nДа се изтегли ли въпреки това?",
+  "@pick_instruction__item_invalid_place": {
+    "type": "text"
+  },
+  "pick_instruction__item_number": "№ на части",
+  "@pick_instruction__item_number": {
+    "type": "text"
+  },
+  "pick_instruction__item_number2": "№ на части",
+  "@pick_instruction__item_number2": {
+    "type": "text"
+  },
+  "pick_instruction__level": "Етаж",
+  "@pick_instruction__level": {
+    "type": "text"
+  },
+  "pick_instruction__no_manual_input": "Не е разрешено ръчно въвеждане или сканиране на раздела за плота за опаковане. Необходима е цена в черно.",
+  "@pick_instruction__no_manual_input": {
+    "type": "text"
+  },
+  "pick_instruction__no_more_items_hold": "Паркирането е невъзможно. Достига се максималният брой.",
+  "@pick_instruction__no_more_items_hold": {
+    "type": "text"
+  },
+  "pick_instruction__picking_complete": "Изтеглянето е напълно завършено. Моля, прехвърлете данните на мястото за данни за наличност чрез основното меню „Каса“.",
+  "@pick_instruction__picking_complete": {
+    "type": "text"
+  },
+  "pick_instruction__place": "Място за разполагане",
+  "@pick_instruction__place": {
+    "type": "text"
+  },
+  "pick_instruction__product_has_sizes_with_different_redprices_print_anyway": "EH-Artikel има размери с различна информация за цената. Трябва ли намалената цена в червено да се отпечата въпреки това?",
+  "@pick_instruction__product_has_sizes_with_different_redprices_print_anyway": {
+    "type": "text"
+  },
+  "pick_instruction__product_variation_not_for_picking": "EH-Artikel/размер не са предвидени за изтегляне от това място за разполагане",
+  "@pick_instruction__product_variation_not_for_picking": {
+    "type": "text"
+  },
+  "pick_instruction__reprint": "Нов печат",
+  "@pick_instruction__reprint": {
+    "type": "text"
+  },
+  "pick_instruction__room": "Помещение",
+  "@pick_instruction__room": {
+    "type": "text"
+  },
+  "pick_instruction__row": "Ред",
+  "@pick_instruction__row": {
+    "type": "text"
+  },
+  "pick_instruction__selling_area": "ПРОДАЖБИ",
+  "@pick_instruction__selling_area": {
+    "type": "text"
+  },
+  "pick_instruction__set_as_missing_item": "Действително ли искате да резервирате частта като липсваща?",
+  "@pick_instruction__set_as_missing_item": {
+    "type": "text"
+  },
+  "pick_instruction__wrong_product": "Грешен EH-Artikel",
+  "@pick_instruction__wrong_product": {
+    "type": "text"
+  },
+  "red_prices_old__no_pricecode_availalbe": "Не можа да бъде установен ценовият код към новата намалена цена в червено.",
+  "@red_prices_old__no_pricecode_availalbe": {
+    "type": "text"
+  },
+  "red_prices_old__no_redprice_info_available": "Няма информация за намалена цена в червено",
+  "@red_prices_old__no_redprice_info_available": {
+    "type": "text"
+  },
+  "red_prices_old__productvariation_not_for_picking": "EH-Artikel/размер не са предвидени за изтегляне от това място за разполагане",
+  "@red_prices_old__productvariation_not_for_picking": {
+    "type": "text"
+  },
+  "red_prices_selling__hz_process_completed": "Намаляването на цените е напълно завършено. Моля, прехвърлете данните на мястото за данни за наличност чрез основното меню „Каса“!",
+  "@red_prices_selling__hz_process_completed": {
+    "type": "text"
+  },
+  "stock_arrival__all_shipping_orders_scanned": "Сканирани са всички поръчки за спедиция.",
+  "@stock_arrival__all_shipping_orders_scanned": {
+    "type": "text"
+  },
+  "stock_arrival__correction_delivery_2": "Коригираща стокова разписка\nМоля, сканирайте на ниво части",
+  "@stock_arrival__correction_delivery_2": {
+    "type": "text"
+  },
+  "stock_arrival__invalid_barcode_scanned_2": "Поръчката за спедиция \"{value0}\" не съществува или вече е сканирана",
+  "@stock_arrival__invalid_barcode_scanned_2": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_3": "Списъкът за зареждане \"{value0}\" не съществува или вече е сканиран",
+  "@stock_arrival__invalid_barcode_scanned_3": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_4": "Стоковата разписка \"{value0}\" не съществува или вече е сканирана",
+  "@stock_arrival__invalid_barcode_scanned_4": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_5": "Част \"{value0}\" не съществува или вече е сканирана",
+  "@stock_arrival__invalid_barcode_scanned_5": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_6": "Пакет \"{value0}\" не съществува или вече е сканиран",
+  "@stock_arrival__invalid_barcode_scanned_6": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__scan_dhl_parcel": "DHL пакет получен\nМоля, сканирайте пакетите",
+  "@stock_arrival__scan_dhl_parcel": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level": "Трябва да се сканира на по-ниско ниво!",
+  "@stock_arrival__scan_on_lower_level": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level_2": "Трябва да се сканира на ниво списъци за зареждане",
+  "@stock_arrival__scan_on_lower_level_2": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level_3": "Трябва да се сканира на ниво стокови разписки",
+  "@stock_arrival__scan_on_lower_level_3": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level_4": "Трябва да се сканира на ниво части",
+  "@stock_arrival__scan_on_lower_level_4": {
+    "type": "text"
+  },
+  "stocktaking__amount_not_reached": "Не са достигнати предварително зададените бройки!",
+  "@stocktaking__amount_not_reached": {
+    "type": "text"
+  },
+  "stocktaking__amount_of_storage_locations_reached": "Достигнати са предварително зададените места за разполагане",
+  "@stocktaking__amount_of_storage_locations_reached": {
+    "type": "text"
+  },
+  "stocktaking__ask_force_closing": "Трябва ли Abstimmkreis да се приключи?",
+  "@stocktaking__ask_force_closing": {
+    "type": "text"
+  },
+  "stocktaking__employee_number": "Персонален №:",
+  "@stocktaking__employee_number": {
+    "type": "text"
+  },
+  "stocktaking__exit_impossible": "Abstimmkreis не е приключен! Не е възможно приключване.",
+  "@stocktaking__exit_impossible": {
+    "type": "text"
+  },
+  "stocktaking__invalid_amount_of_storage_locations": "Задайте невалидния брой на места за разполагане",
+  "@stocktaking__invalid_amount_of_storage_locations": {
+    "type": "text"
+  },
+  "stocktaking__invalid_record_forecast": "Прехвърлете невалидното задаване на бройките!",
+  "@stocktaking__invalid_record_forecast": {
+    "type": "text"
+  },
+  "stocktaking__inventory_area": "Abstimmkreis:",
+  "@stocktaking__inventory_area": {
+    "type": "text"
+  },
+  "stocktaking__target_amount_reached": "Достигната е предварително зададената бройка",
+  "@stocktaking__target_amount_reached": {
+    "type": "text"
+  },
+  "stocktaking__updated_existing_record_selling_area": "Артикулът вече беше наличен. Старият запис е отстранен.",
+  "@stocktaking__updated_existing_record_selling_area": {
+    "type": "text"
+  },
+  "warentransport__picklist_maximum_amount_of_items_reached": "Достигнат е максималният брой. Моля, отчетете устройството.",
+  "@warentransport__picklist_maximum_amount_of_items_reached": {
+    "type": "text"
+  },
+  "counter__counters": "Zähler",
+  "@counter__counters": {
+    "type": "text"
+  },
+  "counter__coffee": "Kaffee",
+  "@counter__coffee": {
+    "type": "text"
+  },
+  "counter__waterGlasses": "Wassergläser",
+  "@counter__waterGlasses": {
+    "type": "text"
+  },
+  "counter__overtime": "Überstunden",
+  "@counter__overtime": {
+    "type": "text"
+  },
+  "counter__cookies": "Kekse",
+  "@counter__cookies": {
+    "type": "text"
+  },
+  "counter__decrementHint": "Negative Werte sind nicht zulässig.",
+  "@counter__decrementHint": {
+    "type": "text"
+  },
+  "general__sessionExpired": "Die Sitzung ist abgelaufen.\nBitte melde dich erneut an.",
+  "@general__sessionExpired": {
+    "type": "text"
+  },
+  "general__generalError": "Es ist ein Fehler aufgetreten.\nBitte versuche es später nochmal.",
+  "@general__generalError": {
+    "type": "text"
+  },
+  "general__homepage": "Startseite",
+  "@general__homepage": {
+    "type": "text"
+  },
+  "general__submit": "Absenden",
+  "@general__submit": {
+    "type": "text"
+  },
+  "general__login": "Anmelden",
+  "@general__login": {
+    "type": "text"
+  },
+  "general__logout": "Abmelden",
+  "@general__logout": {
+    "type": "text"
+  },
+  "logout__success": "Du wurdest erfolgreich abgemeldet.",
+  "@logout__success": {
+    "type": "text"
+  },
+  "login__success": "Du wurdest erfolgreich angemeldet.",
+  "@login__success": {
+    "type": "text"
+  },
+  "login__authorizationError": "Anmeldedaten ungültig oder unbekannt.",
+  "@login__authorizationError": {
+    "type": "text"
+  },
+  "counter__confirmDelete": "Möchtest du diesen Zähler wirklich löschen?",
+  "@counter__confirmDelete": {
+    "type": "text"
+  },
+  "general__houseNumber": "Hausnummer",
+  "@general__houseNumber": {
+    "type": "text"
+  },
+  "general__design": "Design",
+  "@general__design": {
+    "type": "text"
+  },
+  "general__system": "System",
+  "@general__system": {
+    "type": "text"
+  },
+  "general__light": "Hell",
+  "@general__light": {
+    "type": "text"
+  },
+  "general__dark": "Dunkel",
+  "@general__dark": {
+    "type": "text"
+  },
+  "general__reset": "Zurücksetzen",
+  "@general__reset": {
+    "type": "text"
+  },
+  "general__delete": "Löschen",
+  "@general__delete": {
+    "type": "text"
+  },
+  "database__reset": "Datenbank zurücksetzen",
+  "@database__reset": {
+    "type": "text"
+  },
+  "database__resetTable": "Datenbank-Tabelle zurücksetzen",
+  "@database__resetTable": {
+    "type": "text"
+  }
+}

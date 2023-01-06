@@ -1,0 +1,599 @@
+{
+  "@@locale": "cs",
+  "datatransfer__device_could_not_be_registered": "Zařízení nelze zaregistrovat!",
+  "@datatransfer__device_could_not_be_registered": {
+    "type": "text"
+  },
+  "datatransfer__device_has_been_registered": "Zařízení bylo zaregistrováno!",
+  "@datatransfer__device_has_been_registered": {
+    "type": "text"
+  },
+  "dispohz__product_not_in_file": "Dispozice není v souboru slevy dostupná!",
+  "@dispohz__product_not_in_file": {
+    "type": "text"
+  },
+  "duplicator__please_scan_old_price": "Oskenujte starou cenu!",
+  "@duplicator__please_scan_old_price": {
+    "type": "text"
+  },
+  "duplicator__please_scan_red_price": "Oskenujte červenou cenu!",
+  "@duplicator__please_scan_red_price": {
+    "type": "text"
+  },
+  "duplicator__red_price_too_high": "Červená cena je příliš vysoká!",
+  "@duplicator__red_price_too_high": {
+    "type": "text"
+  },
+  "general__amount_short": "Poč.",
+  "@general__amount_short": {
+    "type": "text"
+  },
+  "general__do_you_really_want_to_hold_current_item": "Má se aktuální položka opravdu umístit?",
+  "@general__do_you_really_want_to_hold_current_item": {
+    "type": "text"
+  },
+  "general__invalid_barcode": "Neplatný čárový kód",
+  "@general__invalid_barcode": {
+    "type": "text"
+  },
+  "general__invalid_barcode_scanned": "Oskenován nesprávný čárový kód\n{value0}",
+  "@general__invalid_barcode_scanned": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "general__invalid_checkdigit": "Nesprávná kontrolní číslice",
+  "@general__invalid_checkdigit": {
+    "type": "text"
+  },
+  "general__invalid_country": "Nesprávný stát",
+  "@general__invalid_country": {
+    "type": "text"
+  },
+  "general__invalid_ean13": "Neplatný EAN13",
+  "@general__invalid_ean13": {
+    "type": "text"
+  },
+  "general__invalid_ean8": "Neplatný EAN8",
+  "@general__invalid_ean8": {
+    "type": "text"
+  },
+  "general__invalid_employee_number": "Osobní číslo neplatné",
+  "@general__invalid_employee_number": {
+    "type": "text"
+  },
+  "general__invalid_input": "Neplatné zadání",
+  "@general__invalid_input": {
+    "type": "text"
+  },
+  "general__invalid_item_number": "Neplatné číslo kusu",
+  "@general__invalid_item_number": {
+    "type": "text"
+  },
+  "general__item_number_short": "Č. kusu",
+  "@general__item_number_short": {
+    "type": "text"
+  },
+  "general__next": "Další",
+  "@general__next": {
+    "type": "text"
+  },
+  "general__no": "Ne",
+  "@general__no": {
+    "type": "text"
+  },
+  "general__no_base_data": "Na přístroji nejsou k dispozici žádná data zásoby!",
+  "@general__no_base_data": {
+    "type": "text"
+  },
+  "general__no_hz_info_for_this_item": "Pro tento kus nejsou žádné informace HZ",
+  "@general__no_hz_info_for_this_item": {
+    "type": "text"
+  },
+  "general__ok": "OK",
+  "@general__ok": {
+    "type": "text"
+  },
+  "general__order_number": "Č. objednávky",
+  "@general__order_number": {
+    "type": "text"
+  },
+  "general__please_scan_label": "Oskenujte etiketu",
+  "@general__please_scan_label": {
+    "type": "text"
+  },
+  "general__product": "EH artikl",
+  "@general__product": {
+    "type": "text"
+  },
+  "general__product_has_different_red_prices": "EH artikel má velikosti s různými cenovými informacemi. Má se červená cena přesto vytisknout?",
+  "@general__product_has_different_red_prices": {
+    "type": "text"
+  },
+  "general__quantity": "Počet kusů",
+  "@general__quantity": {
+    "type": "text"
+  },
+  "general__red_price": "Červená cena",
+  "@general__red_price": {
+    "type": "text"
+  },
+  "general__redprices_identically": "Červené ceny shodné",
+  "@general__redprices_identically": {
+    "type": "text"
+  },
+  "general__size": "Velikost",
+  "@general__size": {
+    "type": "text"
+  },
+  "general__storage_location": "Umístění",
+  "@general__storage_location": {
+    "type": "text"
+  },
+  "general__version": "Verze",
+  "@general__version": {
+    "type": "text"
+  },
+  "general__yes": "Ano",
+  "@general__yes": {
+    "type": "text"
+  },
+  "mbinfo__min_amount": "M-bst.",
+  "@mbinfo__min_amount": {
+    "type": "text"
+  },
+  "mbinfo__no_product_info": "informace o EH artiklu není k dispozici",
+  "@mbinfo__no_product_info": {
+    "type": "text"
+  },
+  "mbinfo__on_selling": "Ve VK",
+  "@mbinfo__on_selling": {
+    "type": "text"
+  },
+  "mbinfo__sum": "Celkem",
+  "@mbinfo__sum": {
+    "type": "text"
+  },
+  "menu__app_data_transfer": "Přenos dat",
+  "@menu__app_data_transfer": {
+    "type": "text"
+  },
+  "menu__app_duplicator": "Duplikátor",
+  "@menu__app_duplicator": {
+    "type": "text"
+  },
+  "menu__app_pl07_item_movement": "Uskladnění/přeskladnění",
+  "@menu__app_pl07_item_movement": {
+    "type": "text"
+  },
+  "menu__app_pl07_missing_items": "Chybné kusy",
+  "@menu__app_pl07_missing_items": {
+    "type": "text"
+  },
+  "menu__app_pl07_pick_instruction": "Vychystání",
+  "@menu__app_pl07_pick_instruction": {
+    "type": "text"
+  },
+  "menu__app_pl07_red_prices_old": "Červené ceny",
+  "@menu__app_pl07_red_prices_old": {
+    "type": "text"
+  },
+  "menu__app_pl07_red_prices_selling_area": "Červené ceny VK",
+  "@menu__app_pl07_red_prices_selling_area": {
+    "type": "text"
+  },
+  "menu__app_pl07_stock_arrival_mb_info_product_info": "Info o EH artiklu",
+  "@menu__app_pl07_stock_arrival_mb_info_product_info": {
+    "type": "text"
+  },
+  "menu__app_pl07_ware_transfer": "Doprava zboží",
+  "@menu__app_pl07_ware_transfer": {
+    "type": "text"
+  },
+  "menu__app_service_point": "Servisní bod",
+  "@menu__app_service_point": {
+    "type": "text"
+  },
+  "menu__app_stocktaking_selling_area": "Inventura VK",
+  "@menu__app_stocktaking_selling_area": {
+    "type": "text"
+  },
+  "menu__app_stocktaking_stock": "Inventura - sklad",
+  "@menu__app_stocktaking_stock": {
+    "type": "text"
+  },
+  "menu__pl07_stock_arrival": "Příjem zboží",
+  "@menu__pl07_stock_arrival": {
+    "type": "text"
+  },
+  "menu__settings": "Nastavení",
+  "@menu__settings": {
+    "type": "text"
+  },
+  "menu__stocktaking": "Inventář",
+  "@menu__stocktaking": {
+    "type": "text"
+  },
+  "missing_item__item_is_no_missing_item": "Kus není podle systému chybný kus",
+  "@missing_item__item_is_no_missing_item": {
+    "type": "text"
+  },
+  "missing_item__missing_item_dest_form": "Chybné kusy - cílové umístění",
+  "@missing_item__missing_item_dest_form": {
+    "type": "text"
+  },
+  "missing_item__missing_item_search_complete": "Hledání chybného kusu je kompletně ukončeno. Přeneste data na místo dat zásob přes základní menu Pokladna!",
+  "@missing_item__missing_item_search_complete": {
+    "type": "text"
+  },
+  "missing_item__reason_1": "Přehlídnuto",
+  "@missing_item__reason_1": {
+    "type": "text"
+  },
+  "missing_item__reason_2": "Chybné šifrování",
+  "@missing_item__reason_2": {
+    "type": "text"
+  },
+  "missing_item__reason_3": "Nesprávné umístění",
+  "@missing_item__reason_3": {
+    "type": "text"
+  },
+  "missing_item__reason_4": "V prodeji",
+  "@missing_item__reason_4": {
+    "type": "text"
+  },
+  "missing_item__reason_5": "Ostatní",
+  "@missing_item__reason_5": {
+    "type": "text"
+  },
+  "missing_item__reason_form": "Důvod pro chybný kus",
+  "@missing_item__reason_form": {
+    "type": "text"
+  },
+  "missing_item__search_complete": "Hledání chybného kusu je kompletně ukončeno. Přeneste data na místo dat zásob přes základní menu Pokladna!",
+  "@missing_item__search_complete": {
+    "type": "text"
+  },
+  "missing_item__search_form": "Chybné kusy ({value0})",
+  "@missing_item__search_form": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "pick_instruction__amount": "Poč.",
+  "@pick_instruction__amount": {
+    "type": "text"
+  },
+  "pick_instruction__dest_branch": "Cílový provoz",
+  "@pick_instruction__dest_branch": {
+    "type": "text"
+  },
+  "pick_instruction__error_during_save": "Chyba při uložení dat",
+  "@pick_instruction__error_during_save": {
+    "type": "text"
+  },
+  "pick_instruction__error_no_more_data": "Žádná další data",
+  "@pick_instruction__error_no_more_data": {
+    "type": "text"
+  },
+  "pick_instruction__floor": "Poschodí",
+  "@pick_instruction__floor": {
+    "type": "text"
+  },
+  "pick_instruction__hold_item": "Umístit",
+  "@pick_instruction__hold_item": {
+    "type": "text"
+  },
+  "pick_instruction__image": "Obrázek",
+  "@pick_instruction__image": {
+    "type": "text"
+  },
+  "pick_instruction__is_stock_empty_now": "Je umístění\n{value0}\nnyní prázdné?",
+  "@pick_instruction__is_stock_empty_now": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "pick_instruction__item_already_picked": "Kus byl již vychystán",
+  "@pick_instruction__item_already_picked": {
+    "type": "text"
+  },
+  "pick_instruction__item_doesnt_exists_in_system": "Kus není podle systému k dispozici",
+  "@pick_instruction__item_doesnt_exists_in_system": {
+    "type": "text"
+  },
+  "pick_instruction__item_has_wrong_size": "Kus má nesprávnou velikost",
+  "@pick_instruction__item_has_wrong_size": {
+    "type": "text"
+  },
+  "pick_instruction__item_invalid_place": "Tento kus není podle systému na tomto umístění.\nPřesto vychystat?",
+  "@pick_instruction__item_invalid_place": {
+    "type": "text"
+  },
+  "pick_instruction__item_number": "Č. kusu",
+  "@pick_instruction__item_number": {
+    "type": "text"
+  },
+  "pick_instruction__item_number2": "Č. kusu",
+  "@pick_instruction__item_number2": {
+    "type": "text"
+  },
+  "pick_instruction__level": "Poschodí",
+  "@pick_instruction__level": {
+    "type": "text"
+  },
+  "pick_instruction__no_manual_input": "Není povoleno manuální zadání nebo sken úseku balicího stolu. Je zapotřebí černá cena.",
+  "@pick_instruction__no_manual_input": {
+    "type": "text"
+  },
+  "pick_instruction__no_more_items_hold": "Umístění není možné. Bylo dosaženo maximálního počtu.",
+  "@pick_instruction__no_more_items_hold": {
+    "type": "text"
+  },
+  "pick_instruction__picking_complete": "Vychystání je kompletně ukončeno. Přeneste data na místo dat zásob přes základní menu Pokladna.",
+  "@pick_instruction__picking_complete": {
+    "type": "text"
+  },
+  "pick_instruction__place": "Umístění",
+  "@pick_instruction__place": {
+    "type": "text"
+  },
+  "pick_instruction__product_has_sizes_with_different_redprices_print_anyway": "EH artikel má velikosti s různými cenovými informacemi. Má se červená cena přesto vytisknout?",
+  "@pick_instruction__product_has_sizes_with_different_redprices_print_anyway": {
+    "type": "text"
+  },
+  "pick_instruction__product_variation_not_for_picking": "EH artikl/velikost není plánován(a) pro vychystání z tohoto umístění",
+  "@pick_instruction__product_variation_not_for_picking": {
+    "type": "text"
+  },
+  "pick_instruction__reprint": "Nový tisk",
+  "@pick_instruction__reprint": {
+    "type": "text"
+  },
+  "pick_instruction__room": "Místnost",
+  "@pick_instruction__room": {
+    "type": "text"
+  },
+  "pick_instruction__row": "Řada",
+  "@pick_instruction__row": {
+    "type": "text"
+  },
+  "pick_instruction__selling_area": "PRODEJ",
+  "@pick_instruction__selling_area": {
+    "type": "text"
+  },
+  "pick_instruction__set_as_missing_item": "Chcete kus opravdu zaúčtovat jako chybný kus?",
+  "@pick_instruction__set_as_missing_item": {
+    "type": "text"
+  },
+  "pick_instruction__wrong_product": "Chybný EH artikl",
+  "@pick_instruction__wrong_product": {
+    "type": "text"
+  },
+  "red_prices_old__no_pricecode_availalbe": "Kód ceny k nové červené ceně nebylo možno zjistit.",
+  "@red_prices_old__no_pricecode_availalbe": {
+    "type": "text"
+  },
+  "red_prices_old__no_redprice_info_available": "Není k dispozici žádná informace o červených cenách",
+  "@red_prices_old__no_redprice_info_available": {
+    "type": "text"
+  },
+  "red_prices_old__productvariation_not_for_picking": "EH artikl/velikost není plánován(a) pro vychystání z tohoto umístění",
+  "@red_prices_old__productvariation_not_for_picking": {
+    "type": "text"
+  },
+  "red_prices_selling__hz_process_completed": "Sleva je kompletně ukončena. Přeneste data na místo dat zásob přes základní menu Pokladna!",
+  "@red_prices_selling__hz_process_completed": {
+    "type": "text"
+  },
+  "stock_arrival__all_shipping_orders_scanned": "Byly oskenovány všechny spediční příkazy.",
+  "@stock_arrival__all_shipping_orders_scanned": {
+    "type": "text"
+  },
+  "stock_arrival__correction_delivery_2": "Opravný dodací list \nProveďte skenování na úrovni kusu",
+  "@stock_arrival__correction_delivery_2": {
+    "type": "text"
+  },
+  "stock_arrival__invalid_barcode_scanned_2": "Spediční příkaz \"{value0}\" není k dispozici nebo byl již skenován",
+  "@stock_arrival__invalid_barcode_scanned_2": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_3": "Seznam nakládky \"{value0}\" není k dispozici nebo byl již skenován",
+  "@stock_arrival__invalid_barcode_scanned_3": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_4": "Dodací list \"{value0}\" není k dispozici nebo byl již skenován",
+  "@stock_arrival__invalid_barcode_scanned_4": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_5": "Kus \"{value0}\" není k dispozici nebo byl již skenován",
+  "@stock_arrival__invalid_barcode_scanned_5": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_6": "Balík \"{value0}\" není k dispozici nebo byl již skenován",
+  "@stock_arrival__invalid_barcode_scanned_6": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__scan_dhl_parcel": "Balík DHL obsažen\nOskenujte balíky",
+  "@stock_arrival__scan_dhl_parcel": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level": "Je nutno skenovat na hlubší úrovni!",
+  "@stock_arrival__scan_on_lower_level": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level_2": "Je nutno skenovat na úrovni seznamu nakládky",
+  "@stock_arrival__scan_on_lower_level_2": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level_3": "Je nutno skenovat na úrovni dodacího listu",
+  "@stock_arrival__scan_on_lower_level_3": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level_4": "Je nutno skenovat na úrovni kusu",
+  "@stock_arrival__scan_on_lower_level_4": {
+    "type": "text"
+  },
+  "stocktaking__amount_not_reached": "Zadaný počet není dosažen!",
+  "@stocktaking__amount_not_reached": {
+    "type": "text"
+  },
+  "stocktaking__amount_of_storage_locations_reached": "Bylo dosaženo zadání umístění",
+  "@stocktaking__amount_of_storage_locations_reached": {
+    "type": "text"
+  },
+  "stocktaking__ask_force_closing": "Má se okruh odsouhlasení uzavřít?",
+  "@stocktaking__ask_force_closing": {
+    "type": "text"
+  },
+  "stocktaking__employee_number": "Osobní  č.:",
+  "@stocktaking__employee_number": {
+    "type": "text"
+  },
+  "stocktaking__exit_impossible": "Okruh odsouhlasení není uzavřen! Ukončení není možné!",
+  "@stocktaking__exit_impossible": {
+    "type": "text"
+  },
+  "stocktaking__invalid_amount_of_storage_locations": "Zadán neplatný počet umístění",
+  "@stocktaking__invalid_amount_of_storage_locations": {
+    "type": "text"
+  },
+  "stocktaking__invalid_record_forecast": "Předat neplatné zadání počtu kusů!",
+  "@stocktaking__invalid_record_forecast": {
+    "type": "text"
+  },
+  "stocktaking__inventory_area": "Okruh odsouhlasení:",
+  "@stocktaking__inventory_area": {
+    "type": "text"
+  },
+  "stocktaking__target_amount_reached": "Bylo dosaženo zadání počtu kusů",
+  "@stocktaking__target_amount_reached": {
+    "type": "text"
+  },
+  "stocktaking__updated_existing_record_selling_area": "Artikl je již k dispozici. Starý záznam odstraněn.",
+  "@stocktaking__updated_existing_record_selling_area": {
+    "type": "text"
+  },
+  "warentransport__picklist_maximum_amount_of_items_reached": "Bylo dosaženo maximálního počtu. Iniciujte přístroj.",
+  "@warentransport__picklist_maximum_amount_of_items_reached": {
+    "type": "text"
+  },
+  "counter__counters": "Zähler",
+  "@counter__counters": {
+    "type": "text"
+  },
+  "counter__coffee": "Kaffee",
+  "@counter__coffee": {
+    "type": "text"
+  },
+  "counter__waterGlasses": "Wassergläser",
+  "@counter__waterGlasses": {
+    "type": "text"
+  },
+  "counter__overtime": "Überstunden",
+  "@counter__overtime": {
+    "type": "text"
+  },
+  "counter__cookies": "Kekse",
+  "@counter__cookies": {
+    "type": "text"
+  },
+  "counter__decrementHint": "Negative Werte sind nicht zulässig.",
+  "@counter__decrementHint": {
+    "type": "text"
+  },
+  "general__sessionExpired": "Die Sitzung ist abgelaufen.\nBitte melde dich erneut an.",
+  "@general__sessionExpired": {
+    "type": "text"
+  },
+  "general__generalError": "Es ist ein Fehler aufgetreten.\nBitte versuche es später nochmal.",
+  "@general__generalError": {
+    "type": "text"
+  },
+  "general__homepage": "Startseite",
+  "@general__homepage": {
+    "type": "text"
+  },
+  "general__submit": "Absenden",
+  "@general__submit": {
+    "type": "text"
+  },
+  "general__login": "Anmelden",
+  "@general__login": {
+    "type": "text"
+  },
+  "general__logout": "Abmelden",
+  "@general__logout": {
+    "type": "text"
+  },
+  "logout__success": "Du wurdest erfolgreich abgemeldet.",
+  "@logout__success": {
+    "type": "text"
+  },
+  "login__success": "Du wurdest erfolgreich angemeldet.",
+  "@login__success": {
+    "type": "text"
+  },
+  "login__authorizationError": "Anmeldedaten ungültig oder unbekannt.",
+  "@login__authorizationError": {
+    "type": "text"
+  },
+  "counter__confirmDelete": "Möchtest du diesen Zähler wirklich löschen?",
+  "@counter__confirmDelete": {
+    "type": "text"
+  },
+  "general__houseNumber": "Hausnummer",
+  "@general__houseNumber": {
+    "type": "text"
+  },
+  "general__design": "Design",
+  "@general__design": {
+    "type": "text"
+  },
+  "general__system": "System",
+  "@general__system": {
+    "type": "text"
+  },
+  "general__light": "Hell",
+  "@general__light": {
+    "type": "text"
+  },
+  "general__dark": "Dunkel",
+  "@general__dark": {
+    "type": "text"
+  },
+  "general__reset": "Zurücksetzen",
+  "@general__reset": {
+    "type": "text"
+  },
+  "general__delete": "Löschen",
+  "@general__delete": {
+    "type": "text"
+  },
+  "database__reset": "Datenbank zurücksetzen",
+  "@database__reset": {
+    "type": "text"
+  },
+  "database__resetTable": "Datenbank-Tabelle zurücksetzen",
+  "@database__resetTable": {
+    "type": "text"
+  }
+}

@@ -1,0 +1,1895 @@
+{
+  "@@locale": "de",
+  "administration__ignore_register": "Registrierung ignorieren",
+  "@administration__ignore_register": {
+    "type": "text"
+  },
+  "administration__ignore_wifi_check": "WLAN-Check ignorieren",
+  "@administration__ignore_wifi_check": {
+    "type": "text"
+  },
+  "administration__pickliste_server": "Picklistenserver",
+  "@administration__pickliste_server": {
+    "type": "text"
+  },
+  "administration__store_server": "Hausserver",
+  "@administration__store_server": {
+    "type": "text"
+  },
+  "administration__test_server": "Testserver",
+  "@administration__test_server": {
+    "type": "text"
+  },
+  "bt__connect_already_in_progress": "Connecting bereits aktiv.",
+  "@bt__connect_already_in_progress": {
+    "type": "text"
+  },
+  "bt__connect_error": "Die Verbindung mit dem Drucker konnte nicht hergestellt werden!",
+  "@bt__connect_error": {
+    "type": "text"
+  },
+  "bt__connect_success": "Verbindung erfolgreich!",
+  "@bt__connect_success": {
+    "type": "text"
+  },
+  "bt__device_no_printer": "Gerät ist kein Drucker.",
+  "@bt__device_no_printer": {
+    "type": "text"
+  },
+  "bt__discover_printers": "Suche Drucker",
+  "@bt__discover_printers": {
+    "type": "text"
+  },
+  "bt__discovery_already_active": "Suche bereits aktiv.",
+  "@bt__discovery_already_active": {
+    "type": "text"
+  },
+  "bt__discovery_still_active": "Suche noch aktiv.",
+  "@bt__discovery_still_active": {
+    "type": "text"
+  },
+  "bt__invalid_mac": "Ungültige Mac-Adresse.",
+  "@bt__invalid_mac": {
+    "type": "text"
+  },
+  "bt__location_not_active": "Suche nicht möglich - Standortdienste deaktiviert. Bitte Druckerbarcode zum Verbinden scannen.",
+  "@bt__location_not_active": {
+    "type": "text"
+  },
+  "bt__missing_permissions": "Fehlende Berechtigung.",
+  "@bt__missing_permissions": {
+    "type": "text"
+  },
+  "bt__no_printer_found": "Keine Drucker gefunden.",
+  "@bt__no_printer_found": {
+    "type": "text"
+  },
+  "bt__not_active": "Bluetooth nicht aktiv.",
+  "@bt__not_active": {
+    "type": "text"
+  },
+  "bt__printer_already_conected": "Es ist bereits ein Drucker verbunden.",
+  "@bt__printer_already_conected": {
+    "type": "text"
+  },
+  "data_file_handler__external_picking_delivery_order_already_picked": "Der Lieferschein ist bereits ausgelagert.",
+  "@data_file_handler__external_picking_delivery_order_already_picked": {
+    "type": "text"
+  },
+  "data_file_handler__external_picking_delivery_order_unknown": "Der Lieferschein ist unbekannt oder bereits verarbeitet.",
+  "@data_file_handler__external_picking_delivery_order_unknown": {
+    "type": "text"
+  },
+  "data_file_handler__external_picking_group_unknown": "Dieser Lieferschein wurde nicht ausgelagert.",
+  "@data_file_handler__external_picking_group_unknown": {
+    "type": "text"
+  },
+  "data_file_handler__external_picking_item_unknown": "Diese Teil wurde nicht ausgelagert.",
+  "@data_file_handler__external_picking_item_unknown": {
+    "type": "text"
+  },
+  "data_file_handler__house_special_stock_retrival_blocked": "Umlagerung vom Filial-Sonderstellplatz nicht freigeschaltet!",
+  "@data_file_handler__house_special_stock_retrival_blocked": {
+    "type": "text"
+  },
+  "data_file_handler__item_already_externaly_picked": "Das Teil ist bereits ausgelagert.",
+  "@data_file_handler__item_already_externaly_picked": {
+    "type": "text"
+  },
+  "data_file_handler__item_in_fehlbestand": "Das Teil befindet sich im Fehlbestand.",
+  "@data_file_handler__item_in_fehlbestand": {
+    "type": "text"
+  },
+  "data_file_handler__item_in_schwebebestand": "Die Ladeliste des Teils wurde noch nicht gescannt.\nZum Fortfahren bitte zuvor die Ladeliste verarbeiten.",
+  "@data_file_handler__item_in_schwebebestand": {
+    "type": "text"
+  },
+  "data_file_handler__item_is_not_dispo": "Not-EH-Artikel dürfen nicht eingepickt oder transportiert werden.",
+  "@data_file_handler__item_is_not_dispo": {
+    "type": "text"
+  },
+  "data_file_handler__item_is_not_old_stock_is_old": "Der Altwarensonderstellplatz ist in Ihrem Haus nicht freigeschaltet.",
+  "@data_file_handler__item_is_not_old_stock_is_old": {
+    "type": "text"
+  },
+  "data_file_handler__item_is_old_help_product": "Das Teil verwendet eine alte Notdispo und sollte umetikettiert werden.\nZum Fortfahren bitte das Teil erneut scannen.",
+  "@data_file_handler__item_is_old_help_product": {
+    "type": "text"
+  },
+  "data_file_handler__item_is_old_stock_is_standard_or_item_is_old_stock_is_old": "Bei dem Teil handelt es sich um Altware, die in Ihrem Haus nicht gepickt wird.",
+  "@data_file_handler__item_is_old_stock_is_standard_or_item_is_old_stock_is_old": {
+    "type": "text"
+  },
+  "data_file_handler__item_unknown": "Das Teil gehört nicht zum Hausbestand.",
+  "@data_file_handler__item_unknown": {
+    "type": "text"
+  },
+  "data_file_handler__product_already_there_with_different_date": "Dieser EH-Artikel ist bereits mit einem anderen WE-Datum auf diesem Stellplatz vorhanden.\nZum Fortfahren bitte das Teil erneut scannen.",
+  "@data_file_handler__product_already_there_with_different_date": {
+    "type": "text"
+  },
+  "data_file_handler__product_is_best_price_blocked": "Bestpriceware.\nAufbau auf der Verkaufsfläche erst zum Stichtag möglich.",
+  "@data_file_handler__product_is_best_price_blocked": {
+    "type": "text"
+  },
+  "data_file_handler__product_is_dornroeschen_blocked": "Dornröschenware\nAufbau auf der Verkaufsfläche nicht möglich.",
+  "@data_file_handler__product_is_dornroeschen_blocked": {
+    "type": "text"
+  },
+  "data_file_handler__product_is_fully_promotion_blocked": "Werbeware\nFür diesen Artikel liegt eine vollständige Werbeblockierung vor.",
+  "@data_file_handler__product_is_fully_promotion_blocked": {
+    "type": "text"
+  },
+  "data_file_handler__product_is_preaseason_blocked": "Vorsaisonware\nAufbau auf der Verkaufsfläche erst zum Stichtag möglich.",
+  "@data_file_handler__product_is_preaseason_blocked": {
+    "type": "text"
+  },
+  "data_file_handler__product_is_prio_preaseason_blocked": "Prio-Vorsaisonware\nAufbau auf der Verkaufsfläche erst zum Stichtag möglich.",
+  "@data_file_handler__product_is_prio_preaseason_blocked": {
+    "type": "text"
+  },
+  "data_file_handler__product_is_promotion_blocked": "Werbeware\nEine Untermenge dieses Artikels ist für Werbung reserviert. Beachten Sie das Ausleseprotokoll!",
+  "@data_file_handler__product_is_promotion_blocked": {
+    "type": "text"
+  },
+  "datatransfer__device_could_not_be_registered": "Gerät konnte nicht registriert werden!",
+  "@datatransfer__device_could_not_be_registered": {
+    "type": "text"
+  },
+  "datatransfer__device_could_not_be_registered_ask_manually": "Möchten Sie das Gerät manuell in der Pickliste registrieren?",
+  "@datatransfer__device_could_not_be_registered_ask_manually": {
+    "type": "text"
+  },
+  "datatransfer__device_could_not_be_registered2": "Gerät konnte nicht registriert werden!\n\nAktuelle SSID: {value0}\nAktuelle URL: {value1}\nFehlermeldung: {value2}",
+  "@datatransfer__device_could_not_be_registered2": {
+    "type": "text",
+    "placeholders": {
+      "value0": {},
+      "value1": {},
+      "value2": {}
+    }
+  },
+  "datatransfer__device_has_been_registered": "Gerät wurde registriert!",
+  "@datatransfer__device_has_been_registered": {
+    "type": "text"
+  },
+  "datatransfer__device_manually_registered": "Bitte registrieren Sie das Gerät {value0} manuell in der Pickliste mit der IP-Adresse {value1}",
+  "@datatransfer__device_manually_registered": {
+    "type": "text",
+    "placeholders": {
+      "value0": {},
+      "value1": {}
+    }
+  },
+  "datatransfer__invalid_device_number": "Ungültige Gerätenummer",
+  "@datatransfer__invalid_device_number": {
+    "type": "text"
+  },
+  "datatransfer__ready_for_data_transfer_follow_instructions": "Bereit für Datenübertragung. Folgen Sie den Anweisungen auf der Kasse!",
+  "@datatransfer__ready_for_data_transfer_follow_instructions": {
+    "type": "text"
+  },
+  "datatransfer__trying_to_connect_to_wifi": "Es wird versucht eine Verbindung mit dem WLAN herzustellen...",
+  "@datatransfer__trying_to_connect_to_wifi": {
+    "type": "text"
+  },
+  "datatransfer__wifi_connection_required_to_start_transfer": "Verbindung zum WLAN benötigt um die Datenübertragung zu starten!",
+  "@datatransfer__wifi_connection_required_to_start_transfer": {
+    "type": "text"
+  },
+  "datatransfer__wrong_wlan_device_in_x_and_not_in_y": "Falsches WLAN! Das Gerät befindet sich in \"{value0}\" anstatt in \"{value1}\".",
+  "@datatransfer__wrong_wlan_device_in_x_and_not_in_y": {
+    "type": "text",
+    "placeholders": {
+      "value0": {},
+      "value1": {}
+    }
+  },
+  "diagnostic__instructions": "Bitte machen Sie ein Foto von den unten aufgeführten Punkten und schicken Sie dies an Ihren IT-Ansprechpartner.",
+  "@diagnostic__instructions": {
+    "type": "text"
+  },
+  "dispohz__no_price_information_found_for_product": "Für den Artikel sind keine Preisinformationen vorhanden.",
+  "@dispohz__no_price_information_found_for_product": {
+    "type": "text"
+  },
+  "dispohz__no_red_price_found_for_product": "Für den Artikel ist kein Rotpreis hinterlegt.",
+  "@dispohz__no_red_price_found_for_product": {
+    "type": "text"
+  },
+  "dispohz__product_not_in_file": "Dispo nicht in Herabzeichnungsdatei vorhanden!",
+  "@dispohz__product_not_in_file": {
+    "type": "text"
+  },
+  "dispohz__red_price_is_higher_than_black_price": "Der Rotpreis ist höher als der Schwarzpreis.",
+  "@dispohz__red_price_is_higher_than_black_price": {
+    "type": "text"
+  },
+  "duplicator__please_scan_old_price": "Bitte alten Preis scannen!",
+  "@duplicator__please_scan_old_price": {
+    "type": "text"
+  },
+  "duplicator__please_scan_red_price": "Bitte Rotpreis scannen!",
+  "@duplicator__please_scan_red_price": {
+    "type": "text"
+  },
+  "duplicator__red_price_too_high": "Der Rotpreis ist zu hoch !",
+  "@duplicator__red_price_too_high": {
+    "type": "text"
+  },
+  "elbw_incoming__manual_input_missmatch": "Manuelle Eingabe stimmt nicht mit Barcode überein.",
+  "@elbw_incoming__manual_input_missmatch": {
+    "type": "text"
+  },
+  "elbw_incoming__manual_input_of_outgoing_number": "Manuelle Eingabe der Auslagerungs-Nr.",
+  "@elbw_incoming__manual_input_of_outgoing_number": {
+    "type": "text"
+  },
+  "elbw_incoming__outgoing_number_short": "Auslagerungs-Nr.",
+  "@elbw_incoming__outgoing_number_short": {
+    "type": "text"
+  },
+  "elbw_outgoing__destination": "Ziel",
+  "@elbw_outgoing__destination": {
+    "type": "text"
+  },
+  "elbw_outgoing__reason": "Grund",
+  "@elbw_outgoing__reason": {
+    "type": "text"
+  },
+  "elbw_outgoing__table_header_item_count": "Teile",
+  "@elbw_outgoing__table_header_item_count": {
+    "type": "text"
+  },
+  "elbw_outgoing__table_header_item_nr_ls_nr": "Teil/LS Nr.",
+  "@elbw_outgoing__table_header_item_nr_ls_nr": {
+    "type": "text"
+  },
+  "elbw_outgoing__title": "Ext. LBW Ausl.",
+  "@elbw_outgoing__title": {
+    "type": "text"
+  },
+  "elbw_outgoing__type": "Art",
+  "@elbw_outgoing__type": {
+    "type": "text"
+  },
+  "elbw_outgoing__units": "Einh.",
+  "@elbw_outgoing__units": {
+    "type": "text"
+  },
+  "general__address": "Adresse",
+  "@general__address": {
+    "type": "text"
+  },
+  "general__amount": "Anzahl",
+  "@general__amount": {
+    "type": "text"
+  },
+  "general__amount_short": "Anz.",
+  "@general__amount_short": {
+    "type": "text"
+  },
+  "general__app_title": "MDE Anwendungen",
+  "@general__app_title": {
+    "type": "text"
+  },
+  "general__appstart_not_possible_start_transfer": "{value0} gesperrt!\n{value1}-Daten vorhanden. Bitte Gerät auslesen.",
+  "@general__appstart_not_possible_start_transfer": {
+    "type": "text",
+    "placeholders": {
+      "value0": {},
+      "value1": {}
+    }
+  },
+  "general__automatic": "Automatisch",
+  "@general__automatic": {
+    "type": "text"
+  },
+  "general__build": "Build",
+  "@general__build": {
+    "type": "text"
+  },
+  "general__cancel": "Abbrechen",
+  "@general__cancel": {
+    "type": "text"
+  },
+  "general__center": "Mitte",
+  "@general__center": {
+    "type": "text"
+  },
+  "general__could_not_activate_bluetooth": "Bluetooth konnte nicht aktiviert werden",
+  "@general__could_not_activate_bluetooth": {
+    "type": "text"
+  },
+  "general__country": "Land",
+  "@general__country": {
+    "type": "text"
+  },
+  "general__critical_error": "Kritischer Fehler in der Verarbeitung",
+  "@general__critical_error": {
+    "type": "text"
+  },
+  "general__destination": "Ziel",
+  "@general__destination": {
+    "type": "text"
+  },
+  "general__details": "Details",
+  "@general__details": {
+    "type": "text"
+  },
+  "general__device": "Gerät",
+  "@general__device": {
+    "type": "text"
+  },
+  "general__device_nr_placeholder": "Gerät: {value0}",
+  "@general__device_nr_placeholder": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "general__device_number": "Gerätenummer",
+  "@general__device_number": {
+    "type": "text"
+  },
+  "general__discard_unsaved_changes": "Nicht gespeicherte Änderungen. Wollen Sie diese verwerfen?",
+  "@general__discard_unsaved_changes": {
+    "type": "text"
+  },
+  "general__do_you_really_want_to_hold_current_item": "Soll die aktuelle Position wirklich geparkt werden?",
+  "@general__do_you_really_want_to_hold_current_item": {
+    "type": "text"
+  },
+  "general__edmk_failed_to_init": "Zebra EMDK konnte nicht initialisiert werden.",
+  "@general__edmk_failed_to_init": {
+    "type": "text"
+  },
+  "general__end": "Ende",
+  "@general__end": {
+    "type": "text"
+  },
+  "general__euro": "Euro",
+  "@general__euro": {
+    "type": "text"
+  },
+  "general__first_time_setup": "Ersteinrichtung\n\nBitte pflegen Sie Geräte- und Hausnummer in den Grundeinstellungen. Beladen Sie das Gerät anschließend mit Daten.",
+  "@general__first_time_setup": {
+    "type": "text"
+  },
+  "general__flat_goods": "Liegeware",
+  "@general__flat_goods": {
+    "type": "text"
+  },
+  "general__hanging_goods": "Hängeware",
+  "@general__hanging_goods": {
+    "type": "text"
+  },
+  "general__hz_storno_alert": "HZ-Storno! Bitte umgehend Etikett duplizieren!",
+  "@general__hz_storno_alert": {
+    "type": "text"
+  },
+  "general__ignore": "Ignorieren",
+  "@general__ignore": {
+    "type": "text"
+  },
+  "general__invalid_barcode": "Ungültiger Barcode",
+  "@general__invalid_barcode": {
+    "type": "text"
+  },
+  "general__invalid_barcode_scanned": "Falscher Barcode gescannt\n{value0}",
+  "@general__invalid_barcode_scanned": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "general__invalid_checkdigit": "Prüfziffer inkorrekt",
+  "@general__invalid_checkdigit": {
+    "type": "text"
+  },
+  "general__invalid_country": "Falsches Land",
+  "@general__invalid_country": {
+    "type": "text"
+  },
+  "general__invalid_device_or_store_number": "Ungültige Geräte- oder Hausnummer",
+  "@general__invalid_device_or_store_number": {
+    "type": "text"
+  },
+  "general__invalid_ean13": "Ungültiger EAN13",
+  "@general__invalid_ean13": {
+    "type": "text"
+  },
+  "general__invalid_ean8": "Ungültiger EAN8",
+  "@general__invalid_ean8": {
+    "type": "text"
+  },
+  "general__invalid_employee_number": "Personalnummer ungültig",
+  "@general__invalid_employee_number": {
+    "type": "text"
+  },
+  "general__invalid_input": "Ungültige Eingabe",
+  "@general__invalid_input": {
+    "type": "text"
+  },
+  "general__invalid_item_number": "Ungültige Teilenummer",
+  "@general__invalid_item_number": {
+    "type": "text"
+  },
+  "general__invalid_pricecode_or_price": "Unbekannter Preiscode/Preis: \n{value0}",
+  "@general__invalid_pricecode_or_price": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "general__invalid_storage_location": "Ungültiger Stellplatz",
+  "@general__invalid_storage_location": {
+    "type": "text"
+  },
+  "general__item": "Teil",
+  "@general__item": {
+    "type": "text"
+  },
+  "general__item_number_short": "Teile Nr.",
+  "@general__item_number_short": {
+    "type": "text"
+  },
+  "general__items": "Teile",
+  "@general__items": {
+    "type": "text"
+  },
+  "general__label_position": "Etikett-Position",
+  "@general__label_position": {
+    "type": "text"
+  },
+  "general__label_type": "Etiketttyp",
+  "@general__label_type": {
+    "type": "text"
+  },
+  "general__label_type_new_needed": "Etiketttyp muss neues Format sein.",
+  "@general__label_type_new_needed": {
+    "type": "text"
+  },
+  "general__left": "Links",
+  "@general__left": {
+    "type": "text"
+  },
+  "general__manual": "Manuell",
+  "@general__manual": {
+    "type": "text"
+  },
+  "general__manual_input": "Manuelle Eingabe",
+  "@general__manual_input": {
+    "type": "text"
+  },
+  "general__new": "Neu",
+  "@general__new": {
+    "type": "text"
+  },
+  "general__next": "Weiter",
+  "@general__next": {
+    "type": "text"
+  },
+  "general__no": "Nein",
+  "@general__no": {
+    "type": "text"
+  },
+  "general__no_base_data": "Es sind keine Bestandsdaten auf dem Gerät vorhanden!",
+  "@general__no_base_data": {
+    "type": "text"
+  },
+  "general__no_elbw_data": "Es sind keine Externe Lagerbewirtschaftungsdaten auf dem Gerät vorhanden!",
+  "@general__no_elbw_data": {
+    "type": "text"
+  },
+  "general__no_hz_info_for_this_item": "Keine HZ-Info für dieses Teil!",
+  "@general__no_hz_info_for_this_item": {
+    "type": "text"
+  },
+  "general__no_logs_available": "Keine Logs vorhanden",
+  "@general__no_logs_available": {
+    "type": "text"
+  },
+  "general__not_supported": " Nicht unterstützt",
+  "@general__not_supported": {
+    "type": "text"
+  },
+  "general__number": "Nummer",
+  "@general__number": {
+    "type": "text"
+  },
+  "general__ok": "OK",
+  "@general__ok": {
+    "type": "text"
+  },
+  "general__old": "Alt",
+  "@general__old": {
+    "type": "text"
+  },
+  "general__old_base_data": "Die Bestandsdaten sind nicht aktuell und müssen aktualisiert werden!",
+  "@general__old_base_data": {
+    "type": "text"
+  },
+  "general__old_elbw_data": "Die Externen Lagerbewirtschaftungsdaten sind nicht aktuell und müssen aktualisiert werden!",
+  "@general__old_elbw_data": {
+    "type": "text"
+  },
+  "general__only_country_price_label_supported": "Ungültiges Etikett. Nur Landeswährungs-Etiketten unterstützt.",
+  "@general__only_country_price_label_supported": {
+    "type": "text"
+  },
+  "general__only_pricecode_label_supported": "Ungültiges Etikett. Nur Preiscode-Etiketten unterstützt.",
+  "@general__only_pricecode_label_supported": {
+    "type": "text"
+  },
+  "general__order_number": "Bestell-Nr.",
+  "@general__order_number": {
+    "type": "text"
+  },
+  "general__package": "Paket",
+  "@general__package": {
+    "type": "text"
+  },
+  "general__parked_requests": "Geparkte Anforderungen",
+  "@general__parked_requests": {
+    "type": "text"
+  },
+  "general__password": "Passwort",
+  "@general__password": {
+    "type": "text"
+  },
+  "general__please_enter_password": "Bitte Passwort eingeben",
+  "@general__please_enter_password": {
+    "type": "text"
+  },
+  "general__please_scan_item_or_delivery_note": "Bitte scannen Sie ein Teil oder einen Lieferschein",
+  "@general__please_scan_item_or_delivery_note": {
+    "type": "text"
+  },
+  "general__please_scan_label": "Bitte scannen Sie ein Etikett",
+  "@general__please_scan_label": {
+    "type": "text"
+  },
+  "general__please_scan_storage_location": "Bitte scannen Sie einen Stellplatz",
+  "@general__please_scan_storage_location": {
+    "type": "text"
+  },
+  "general__please_scan_storage_location_first": "Bitte zuerst den Stellplatz scannen.",
+  "@general__please_scan_storage_location_first": {
+    "type": "text"
+  },
+  "general__please_wait": "Bitte warten",
+  "@general__please_wait": {
+    "type": "text"
+  },
+  "general__preparing_update": "Update wird vorbereitet...",
+  "@general__preparing_update": {
+    "type": "text"
+  },
+  "general__pricecode_has_no_europrice": "Preiscode hat keinen Europreis hinterlegt.",
+  "@general__pricecode_has_no_europrice": {
+    "type": "text"
+  },
+  "general__product": "EH-Artikel",
+  "@general__product": {
+    "type": "text"
+  },
+  "general__product_has_different_red_prices": "Der EH-Artikel hat Größen mit unterschiedlichen Preis-Informationen. Soll der Rotpreis trotzdem gedruckt werden?",
+  "@general__product_has_different_red_prices": {
+    "type": "text"
+  },
+  "general__product_not_found": "Artikel {value0} nicht gefunden",
+  "@general__product_not_found": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "general__product_number": "Artikelnummer",
+  "@general__product_number": {
+    "type": "text"
+  },
+  "general__quantity": "Stückzahl",
+  "@general__quantity": {
+    "type": "text"
+  },
+  "general__red_price": "Rotpreis",
+  "@general__red_price": {
+    "type": "text"
+  },
+  "general__redprices_identically": "Rotpreise identisch",
+  "@general__redprices_identically": {
+    "type": "text"
+  },
+  "general__right": "Rechts",
+  "@general__right": {
+    "type": "text"
+  },
+  "general__save": "Speichern",
+  "@general__save": {
+    "type": "text"
+  },
+  "general__saved": "Gespeichert",
+  "@general__saved": {
+    "type": "text"
+  },
+  "general__scan": "Scan",
+  "@general__scan": {
+    "type": "text"
+  },
+  "general__send_error_report": "Fehlerbericht an IT senden",
+  "@general__send_error_report": {
+    "type": "text"
+  },
+  "general__send_error_report_failed": "Fehlerbericht konnte nicht übertragen werden. Überprüfen Sie Ihre Netzwerk-Verbindung.",
+  "@general__send_error_report_failed": {
+    "type": "text"
+  },
+  "general__send_error_report_successful": "Fehlerbericht erfolgreich übertragen. Vielen Dank für Ihre Unterstützung!",
+  "@general__send_error_report_successful": {
+    "type": "text"
+  },
+  "general__serial_number": "Seriennummer",
+  "@general__serial_number": {
+    "type": "text"
+  },
+  "general__size": "Größe",
+  "@general__size": {
+    "type": "text"
+  },
+  "general__software_error": "Softwarefehler",
+  "@general__software_error": {
+    "type": "text"
+  },
+  "general__start": "Start",
+  "@general__start": {
+    "type": "text"
+  },
+  "general__storage_location": "Stellplatz",
+  "@general__storage_location": {
+    "type": "text"
+  },
+  "general__storage_locations": "Stellplätze",
+  "@general__storage_locations": {
+    "type": "text"
+  },
+  "general__store": "Filiale",
+  "@general__store": {
+    "type": "text"
+  },
+  "general__store_number": "Filialnummer",
+  "@general__store_number": {
+    "type": "text"
+  },
+  "general__successfully_finished_data_transfer": "Datenübertragung erfolgreich abgeschlossen",
+  "@general__successfully_finished_data_transfer": {
+    "type": "text"
+  },
+  "general__type": "Typ",
+  "@general__type": {
+    "type": "text"
+  },
+  "general__unknown_item": "Unbekanntes Teil",
+  "@general__unknown_item": {
+    "type": "text"
+  },
+  "general__version": "Version",
+  "@general__version": {
+    "type": "text"
+  },
+  "general__wrong_password": "Falsches Passwort",
+  "@general__wrong_password": {
+    "type": "text"
+  },
+  "general__yes": "Ja",
+  "@general__yes": {
+    "type": "text"
+  },
+  "item_info__dest_branch": "Ziel-Filiale",
+  "@item_info__dest_branch": {
+    "type": "text"
+  },
+  "item_info__dest_wvz": "Ziel-WVZ",
+  "@item_info__dest_wvz": {
+    "type": "text"
+  },
+  "item_info__security_system": "Sicherung",
+  "@item_info__security_system": {
+    "type": "text"
+  },
+  "item_movement__inventory_active_for_stellplatz": "Lagerinventur aktiv. Auf dem Stellplatzbereich kann nicht gepickt werden.",
+  "@item_movement__inventory_active_for_stellplatz": {
+    "type": "text"
+  },
+  "item_movement__max_item_amount": "Maximale Anzahl erreicht. Bitte lesen Sie das Gerät aus.",
+  "@item_movement__max_item_amount": {
+    "type": "text"
+  },
+  "item_movement__product_number_change": "Dispowechsel!\nBitte erneut den Stellplatz scannen.",
+  "@item_movement__product_number_change": {
+    "type": "text"
+  },
+  "item_movement__quick_movement": "Expressumlagerung",
+  "@item_movement__quick_movement": {
+    "type": "text"
+  },
+  "item_movement__scan_storage_location_again": "Bitte erneut den Stellplatz scannen.",
+  "@item_movement__scan_storage_location_again": {
+    "type": "text"
+  },
+  "item_movement__special_storage_pick_stock_definition_locked": "Nutzung des Filial-Sonderstellplatzes nicht freigeschaltet!",
+  "@item_movement__special_storage_pick_stock_definition_locked": {
+    "type": "text"
+  },
+  "item_movement__table_header_item_number": "Teile-Nr.",
+  "@item_movement__table_header_item_number": {
+    "type": "text"
+  },
+  "item_movement__table_header_product_number": "EH-Artikel",
+  "@item_movement__table_header_product_number": {
+    "type": "text"
+  },
+  "item_movement__table_header_storage_location": "Stellplatz",
+  "@item_movement__table_header_storage_location": {
+    "type": "text"
+  },
+  "item_movement__timeout": "Timeout!\nBitte erneut den Stellplatz scannen.",
+  "@item_movement__timeout": {
+    "type": "text"
+  },
+  "item_movement__title": "Einlag. ({value0}/{value1})",
+  "@item_movement__title": {
+    "type": "text",
+    "placeholders": {
+      "value0": {},
+      "value1": {}
+    }
+  },
+  "item_movement__unknown_stellplatz": "Stellplatz ist unbekannt.",
+  "@item_movement__unknown_stellplatz": {
+    "type": "text"
+  },
+  "launcher__all_data_will_be_lost_continue_anyway": "Alle Daten werden gelöscht. Trotzdem weitermachen?",
+  "@launcher__all_data_will_be_lost_continue_anyway": {
+    "type": "text"
+  },
+  "launcher__app_title": "Pickliste Launcher",
+  "@launcher__app_title": {
+    "type": "text"
+  },
+  "launcher__do_you_want_to_install_the_app": "Wollen Sie die Anwendung installieren?",
+  "@launcher__do_you_want_to_install_the_app": {
+    "type": "text"
+  },
+  "launcher__do_you_want_to_update_the_app": "Wollen Sie die Anwendung updaten?",
+  "@launcher__do_you_want_to_update_the_app": {
+    "type": "text"
+  },
+  "launcher__download_of_app_failed": "Herunterladen der App ist fehlgeschlagen.",
+  "@launcher__download_of_app_failed": {
+    "type": "text"
+  },
+  "launcher__downloading_app": "App wird heruntergeladen...",
+  "@launcher__downloading_app": {
+    "type": "text"
+  },
+  "launcher__enrollment_failure_help_message": "Stellen Sie sicher das Sie im \"puc\"-WLAN sind und dass das Netzwerk-Team Ihre Filiale eingerichtet hat.\n\nWeitere Informationen erhalten Sie auf der Diagnose-Seite (oben rechts).",
+  "@launcher__enrollment_failure_help_message": {
+    "type": "text"
+  },
+  "launcher__failed_to_determine_pickliste_host": "Der Picklisten-Host konnte nicht bestimmt werden.",
+  "@launcher__failed_to_determine_pickliste_host": {
+    "type": "text"
+  },
+  "launcher__failed_to_install_app": "Installieren der App ist fehlgeschlagen.",
+  "@launcher__failed_to_install_app": {
+    "type": "text"
+  },
+  "launcher__install": "Installieren",
+  "@launcher__install": {
+    "type": "text"
+  },
+  "launcher__installing_app": "App wird installiert...",
+  "@launcher__installing_app": {
+    "type": "text"
+  },
+  "launcher__no_installation_present_please_press_install": "Es ist keine Installation der Picklisten-App vorhanden. Bitte klicken Sie auf \"Installieren\".",
+  "@launcher__no_installation_present_please_press_install": {
+    "type": "text"
+  },
+  "launcher__please_provide_a_store_number": "Bitte geben Sie eine Filialnummer an.",
+  "@launcher__please_provide_a_store_number": {
+    "type": "text"
+  },
+  "launcher__removing_previous_installation": "Vorherig Installation wird entfernt...",
+  "@launcher__removing_previous_installation": {
+    "type": "text"
+  },
+  "launcher__start_app": "App starten",
+  "@launcher__start_app": {
+    "type": "text"
+  },
+  "launcher__successfully_installed_app": "App wurde erfolgreich installiert!",
+  "@launcher__successfully_installed_app": {
+    "type": "text"
+  },
+  "launcher__update": "Updaten",
+  "@launcher__update": {
+    "type": "text"
+  },
+  "mbinfo__alert_dornroeschen": "Dornröschenartikel. Bitte vollständig einpicken!",
+  "@mbinfo__alert_dornroeschen": {
+    "type": "text"
+  },
+  "mbinfo__base_product": "Stammartikel",
+  "@mbinfo__base_product": {
+    "type": "text"
+  },
+  "mbinfo__bestprice_goods": "Bestprice",
+  "@mbinfo__bestprice_goods": {
+    "type": "text"
+  },
+  "mbinfo__initial_stocking": "Erstbestückung",
+  "@mbinfo__initial_stocking": {
+    "type": "text"
+  },
+  "mbinfo__initial_stocking_short": "Erstb.",
+  "@mbinfo__initial_stocking_short": {
+    "type": "text"
+  },
+  "mbinfo__level_workplace": "Etage/Arbeitsplatz",
+  "@mbinfo__level_workplace": {
+    "type": "text"
+  },
+  "mbinfo__min_amount": "E-bst.",
+  "@mbinfo__min_amount": {
+    "type": "text"
+  },
+  "mbinfo__no_product_info": "EH-Artikel Info nicht vorhanden",
+  "@mbinfo__no_product_info": {
+    "type": "text"
+  },
+  "mbinfo__on_selling": "im VK",
+  "@mbinfo__on_selling": {
+    "type": "text"
+  },
+  "mbinfo__oneitempersize": "1 Teil pro Größe = {value0} Teil(e)",
+  "@mbinfo__oneitempersize": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "mbinfo__pick": "Absortieren",
+  "@mbinfo__pick": {
+    "type": "text"
+  },
+  "mbinfo__preseason_goods": "Vorsaison",
+  "@mbinfo__preseason_goods": {
+    "type": "text"
+  },
+  "mbinfo__size_range": "Größen",
+  "@mbinfo__size_range": {
+    "type": "text"
+  },
+  "mbinfo__sleeping_beauty": "Dornröschen",
+  "@mbinfo__sleeping_beauty": {
+    "type": "text"
+  },
+  "mbinfo__sum": "Gesamt",
+  "@mbinfo__sum": {
+    "type": "text"
+  },
+  "mbinfo__zeroitempersize": "Dornröschenware - bitte vollständig einpicken",
+  "@mbinfo__zeroitempersize": {
+    "type": "text"
+  },
+  "menu__app_data_transfer": "Datentransfer",
+  "@menu__app_data_transfer": {
+    "type": "text"
+  },
+  "menu__app_dispohz": "DispoHZ",
+  "@menu__app_dispohz": {
+    "type": "text"
+  },
+  "menu__app_duplicator": "Duplizier",
+  "@menu__app_duplicator": {
+    "type": "text"
+  },
+  "menu__app_mimo": "MiMo",
+  "@menu__app_mimo": {
+    "type": "text"
+  },
+  "menu__app_pl07_elbw_incoming": "Rückholung",
+  "@menu__app_pl07_elbw_incoming": {
+    "type": "text"
+  },
+  "menu__app_pl07_elbw_outgoing": "Auslagerung",
+  "@menu__app_pl07_elbw_outgoing": {
+    "type": "text"
+  },
+  "menu__app_pl07_euro_prices": "Europreise",
+  "@menu__app_pl07_euro_prices": {
+    "type": "text"
+  },
+  "menu__app_pl07_item_info": "Teile Info",
+  "@menu__app_pl07_item_info": {
+    "type": "text"
+  },
+  "menu__app_pl07_item_movement": "Ein-/Umlagerung",
+  "@menu__app_pl07_item_movement": {
+    "type": "text"
+  },
+  "menu__app_pl07_missing_items": "Fehlteile",
+  "@menu__app_pl07_missing_items": {
+    "type": "text"
+  },
+  "menu__app_pl07_pick_instruction": "Absortierung",
+  "@menu__app_pl07_pick_instruction": {
+    "type": "text"
+  },
+  "menu__app_pl07_red_prices_old": "Rotpreise",
+  "@menu__app_pl07_red_prices_old": {
+    "type": "text"
+  },
+  "menu__app_pl07_red_prices_selling_area": "Rotpreise VK",
+  "@menu__app_pl07_red_prices_selling_area": {
+    "type": "text"
+  },
+  "menu__app_pl07_stock_arrival_mb_info": "Erstbest. Info",
+  "@menu__app_pl07_stock_arrival_mb_info": {
+    "type": "text"
+  },
+  "menu__app_pl07_stock_arrival_mb_info_product_info": "EH-Artikel Info",
+  "@menu__app_pl07_stock_arrival_mb_info_product_info": {
+    "type": "text"
+  },
+  "menu__app_pl07_stock_arrival_receipt": "Quittierung Avise",
+  "@menu__app_pl07_stock_arrival_receipt": {
+    "type": "text"
+  },
+  "menu__app_pl07_stock_arrival_receipt_short": "Quit. Avise",
+  "@menu__app_pl07_stock_arrival_receipt_short": {
+    "type": "text"
+  },
+  "menu__app_pl07_ware_transfer": "Warentransport",
+  "@menu__app_pl07_ware_transfer": {
+    "type": "text"
+  },
+  "menu__app_service_point": "Service point",
+  "@menu__app_service_point": {
+    "type": "text"
+  },
+  "menu__app_settings_administration": "Administration",
+  "@menu__app_settings_administration": {
+    "type": "text"
+  },
+  "menu__app_settings_common": "Allgemein",
+  "@menu__app_settings_common": {
+    "type": "text"
+  },
+  "menu__app_settings_diagnostics": "Diagnose",
+  "@menu__app_settings_diagnostics": {
+    "type": "text"
+  },
+  "menu__app_settings_logs": "Logs",
+  "@menu__app_settings_logs": {
+    "type": "text"
+  },
+  "menu__app_settings_printer": "Drucker",
+  "@menu__app_settings_printer": {
+    "type": "text"
+  },
+  "menu__app_settings_scanner": "Scanner",
+  "@menu__app_settings_scanner": {
+    "type": "text"
+  },
+  "menu__app_settings_user": "Benutzer",
+  "@menu__app_settings_user": {
+    "type": "text"
+  },
+  "menu__app_stocktaking_selling_area": "Inventur VK",
+  "@menu__app_stocktaking_selling_area": {
+    "type": "text"
+  },
+  "menu__app_stocktaking_stock": "Inventur Lager",
+  "@menu__app_stocktaking_stock": {
+    "type": "text"
+  },
+  "menu__pl07": "PL07",
+  "@menu__pl07": {
+    "type": "text"
+  },
+  "menu__pl07_elbw": "Ext. Lagerbew.",
+  "@menu__pl07_elbw": {
+    "type": "text"
+  },
+  "menu__pl07_red_prices": "Rotpreise Menü",
+  "@menu__pl07_red_prices": {
+    "type": "text"
+  },
+  "menu__pl07_stock_arrival": "Wareneingang",
+  "@menu__pl07_stock_arrival": {
+    "type": "text"
+  },
+  "menu__settings": "Einstellungen",
+  "@menu__settings": {
+    "type": "text"
+  },
+  "menu__stocktaking": "Inventur",
+  "@menu__stocktaking": {
+    "type": "text"
+  },
+  "mimo__do_you_want_to_delete_all_data_sets": "Wollen Sie alle Datensätze löschen?",
+  "@mimo__do_you_want_to_delete_all_data_sets": {
+    "type": "text"
+  },
+  "mimo__from": "Von",
+  "@mimo__from": {
+    "type": "text"
+  },
+  "mimo__house_number_from": "Haus-Nr. (von)",
+  "@mimo__house_number_from": {
+    "type": "text"
+  },
+  "mimo__house_number_to": "Haus-Nr. (nach)",
+  "@mimo__house_number_to": {
+    "type": "text"
+  },
+  "mimo__label_already_scanned": "Etikett bereits gescannt",
+  "@mimo__label_already_scanned": {
+    "type": "text"
+  },
+  "mimo__maximum_quantity_reached": "Maximale Stückzahl erreicht",
+  "@mimo__maximum_quantity_reached": {
+    "type": "text"
+  },
+  "mimo__mimo_number": "MiMo Nummer",
+  "@mimo__mimo_number": {
+    "type": "text"
+  },
+  "mimo__new_capture_group": "Neuer Abstimmkreis",
+  "@mimo__new_capture_group": {
+    "type": "text"
+  },
+  "mimo__target_quantity_not_reached_want_to_close_the_cg": "Vorgegebene Stückzahl nicht erreicht. Soll der Abstimmkreis trotzdem beendet werden?",
+  "@mimo__target_quantity_not_reached_want_to_close_the_cg": {
+    "type": "text"
+  },
+  "mimo__to": "Nach",
+  "@mimo__to": {
+    "type": "text"
+  },
+  "missing_item__item_is_no_missing_item": "Das Teil ist laut System kein Fehlteil",
+  "@missing_item__item_is_no_missing_item": {
+    "type": "text"
+  },
+  "missing_item__missing_item_dest_form": "Fehlteile Zielstellpatz",
+  "@missing_item__missing_item_dest_form": {
+    "type": "text"
+  },
+  "missing_item__missing_item_search_complete": "Die Fehlteilsuche ist vollständig beendet.",
+  "@missing_item__missing_item_search_complete": {
+    "type": "text"
+  },
+  "missing_item__please_select_a_reason": "Bitte einen Grund auswählen",
+  "@missing_item__please_select_a_reason": {
+    "type": "text"
+  },
+  "missing_item__reason_1": "Übersehen",
+  "@missing_item__reason_1": {
+    "type": "text"
+  },
+  "missing_item__reason_2": "Verschlüsselung falsch",
+  "@missing_item__reason_2": {
+    "type": "text"
+  },
+  "missing_item__reason_3": "Falscher Stellplatz",
+  "@missing_item__reason_3": {
+    "type": "text"
+  },
+  "missing_item__reason_4": "Im Verkauf",
+  "@missing_item__reason_4": {
+    "type": "text"
+  },
+  "missing_item__reason_5": "Sonstiges",
+  "@missing_item__reason_5": {
+    "type": "text"
+  },
+  "missing_item__reason_description": "Das Teil befindet sich im Fehlbestand.\nBitte Grund angeben:",
+  "@missing_item__reason_description": {
+    "type": "text"
+  },
+  "missing_item__reason_form": "Grund für Fehlteil",
+  "@missing_item__reason_form": {
+    "type": "text"
+  },
+  "missing_item__reason_title": "Grund für Fehlteil",
+  "@missing_item__reason_title": {
+    "type": "text"
+  },
+  "missing_item__search_complete": "Die Fehlteilsuche ist vollständig beendet.",
+  "@missing_item__search_complete": {
+    "type": "text"
+  },
+  "missing_item__search_form": "Fehlteile ({value0})",
+  "@missing_item__search_form": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "personal_number__please_scan_or_type_your_personal_number": "Bitte scannen oder geben Sie ihre Personalnummer",
+  "@personal_number__please_scan_or_type_your_personal_number": {
+    "type": "text"
+  },
+  "personal_number__please_scan_your_personal_number": "Bitte scannen Sie ihre Personalnummer",
+  "@personal_number__please_scan_your_personal_number": {
+    "type": "text"
+  },
+  "personal_number__please_type_your_personal_number": "Bitte tippen Sie ihre Personalnummer",
+  "@personal_number__please_type_your_personal_number": {
+    "type": "text"
+  },
+  "personal_number__title": "Personalnummer",
+  "@personal_number__title": {
+    "type": "text"
+  },
+  "pick_instruction__amount": "An.",
+  "@pick_instruction__amount": {
+    "type": "text"
+  },
+  "pick_instruction__book_as_missing_item": "Als Fehlteil buchen",
+  "@pick_instruction__book_as_missing_item": {
+    "type": "text"
+  },
+  "pick_instruction__dest_branch": "Zielbetrieb",
+  "@pick_instruction__dest_branch": {
+    "type": "text"
+  },
+  "pick_instruction__error_during_save": "Fehler beim Speichern der Daten",
+  "@pick_instruction__error_during_save": {
+    "type": "text"
+  },
+  "pick_instruction__error_no_more_data": "Keine weiteren Daten",
+  "@pick_instruction__error_no_more_data": {
+    "type": "text"
+  },
+  "pick_instruction__floor": "Stockwerk",
+  "@pick_instruction__floor": {
+    "type": "text"
+  },
+  "pick_instruction__hold_item": "Parken",
+  "@pick_instruction__hold_item": {
+    "type": "text"
+  },
+  "pick_instruction__image": "Bild",
+  "@pick_instruction__image": {
+    "type": "text"
+  },
+  "pick_instruction__is_stock_empty_now": "Ist der Stellplatz\n{value0}\njetzt leer?",
+  "@pick_instruction__is_stock_empty_now": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "pick_instruction__item_already_picked": "Das Teil wurde schon absortiert",
+  "@pick_instruction__item_already_picked": {
+    "type": "text"
+  },
+  "pick_instruction__item_doesnt_exists_in_system": "Das Teil ist laut System nicht vorhanden",
+  "@pick_instruction__item_doesnt_exists_in_system": {
+    "type": "text"
+  },
+  "pick_instruction__item_has_wrong_size": "Das Teil hat die falsche Größe",
+  "@pick_instruction__item_has_wrong_size": {
+    "type": "text"
+  },
+  "pick_instruction__item_invalid_place": "Dieses Teil ist lt. System nicht in diesem Stellplatz.\nTrotzdem absortieren?",
+  "@pick_instruction__item_invalid_place": {
+    "type": "text"
+  },
+  "pick_instruction__item_number": "Teile Nr.",
+  "@pick_instruction__item_number": {
+    "type": "text"
+  },
+  "pick_instruction__item_number2": "Teile Nr.",
+  "@pick_instruction__item_number2": {
+    "type": "text"
+  },
+  "pick_instruction__level": "Etage",
+  "@pick_instruction__level": {
+    "type": "text"
+  },
+  "pick_instruction__no_manual_input": "Keine manuelle Eingabe oder Scan des Packtischabschnitts erlaubt. Schwarzpreis wird benötigt.",
+  "@pick_instruction__no_manual_input": {
+    "type": "text"
+  },
+  "pick_instruction__no_more_items_hold": "Parken nicht möglich. Die maximale Anzahl wurde erreicht.",
+  "@pick_instruction__no_more_items_hold": {
+    "type": "text"
+  },
+  "pick_instruction__picking_complete": "Die Absortierung ist vollständig beendet.",
+  "@pick_instruction__picking_complete": {
+    "type": "text"
+  },
+  "pick_instruction__place": "Stellplatz",
+  "@pick_instruction__place": {
+    "type": "text"
+  },
+  "pick_instruction__product_has_sizes_with_different_redprices_print_anyway": "Der EH-Artikel hat Größen mit unterschiedlichen Preis-Informationen. Soll der Rotpreis trotzdem gedruckt werden?",
+  "@pick_instruction__product_has_sizes_with_different_redprices_print_anyway": {
+    "type": "text"
+  },
+  "pick_instruction__product_variation_not_for_picking": "EH-Artikel/Größe ist nicht für die Absortierung von diesem Stellplatz vorgesehen",
+  "@pick_instruction__product_variation_not_for_picking": {
+    "type": "text"
+  },
+  "pick_instruction__reprint": "Neudruck",
+  "@pick_instruction__reprint": {
+    "type": "text"
+  },
+  "pick_instruction__request": "Anforderung",
+  "@pick_instruction__request": {
+    "type": "text"
+  },
+  "pick_instruction__room": "Raum",
+  "@pick_instruction__room": {
+    "type": "text"
+  },
+  "pick_instruction__row": "Reihe",
+  "@pick_instruction__row": {
+    "type": "text"
+  },
+  "pick_instruction__selling_area": "VERKAUF",
+  "@pick_instruction__selling_area": {
+    "type": "text"
+  },
+  "pick_instruction__set_as_missing_item": "Wollen Sie das Teil wirklich als Fehlteil buchen?",
+  "@pick_instruction__set_as_missing_item": {
+    "type": "text"
+  },
+  "pick_instruction__wrong_product": "Falscher EH-Artikel",
+  "@pick_instruction__wrong_product": {
+    "type": "text"
+  },
+  "printer__check_battery": "Bitte die Batterie des Druckers wechseln.",
+  "@printer__check_battery": {
+    "type": "text"
+  },
+  "printer__check_cover": "Bitte den Deckel des Druckers schließen.",
+  "@printer__check_cover": {
+    "type": "text"
+  },
+  "printer__check_paper": "Bitte das Papier des Druckers überprüfen.",
+  "@printer__check_paper": {
+    "type": "text"
+  },
+  "printer__connect_error": "Fehler beim Verbinden des Druckers.",
+  "@printer__connect_error": {
+    "type": "text"
+  },
+  "printer__more_than_one_printer": "Mehr als ein Drucker verbunden.",
+  "@printer__more_than_one_printer": {
+    "type": "text"
+  },
+  "printer__no_printer": "Es wurde kein Drucker gewählt.",
+  "@printer__no_printer": {
+    "type": "text"
+  },
+  "printer__printer_not_ready": "Der Drucker ist nicht bereit\nÜberprüfen Sie, ob der Drucker eingeschaltet und online ist.",
+  "@printer__printer_not_ready": {
+    "type": "text"
+  },
+  "printer__printer_oflline_mb200i": "Der Drucker ist nicht online.\nBitte betätigen Sie die blaue\n'PRINT'-Taste.",
+  "@printer__printer_oflline_mb200i": {
+    "type": "text"
+  },
+  "printer__printer_oflline_pw208nx": "Der Drucker ist nicht online.\nBitte betätigen Sie die\n'PLAY|PAUSE'-Taste.",
+  "@printer__printer_oflline_pw208nx": {
+    "type": "text"
+  },
+  "printer__wait": "Bitte warten Sie, bis das Etikett gedruckt ist.",
+  "@printer__wait": {
+    "type": "text"
+  },
+  "red_prices_old__no_pricecode_availalbe": "Der Preiscode zu dem neuen Rotpreis konnte nicht ermittelt werden.",
+  "@red_prices_old__no_pricecode_availalbe": {
+    "type": "text"
+  },
+  "red_prices_old__no_redprice_info_available": "Keine Rotpreisinfo vorhanden",
+  "@red_prices_old__no_redprice_info_available": {
+    "type": "text"
+  },
+  "red_prices_old__productvariation_not_for_picking": "EH-Artikel/Größe ist nicht für die Absortierung von diesem Stellplatz vorgesehen",
+  "@red_prices_old__productvariation_not_for_picking": {
+    "type": "text"
+  },
+  "red_prices_selling__hz_process_completed": "Die Herabzeichnung ist vollständig beendet.",
+  "@red_prices_selling__hz_process_completed": {
+    "type": "text"
+  },
+  "service_point__please_scan_package_first": "Bitte zuerst das Paket scannen.",
+  "@service_point__please_scan_package_first": {
+    "type": "text"
+  },
+  "service_point__relocate_packages": "Pakete umlagern",
+  "@service_point__relocate_packages": {
+    "type": "text"
+  },
+  "service_point__relocating_not_possible_1": "Keine Umlagerung möglich. Das Paket mit der Sendungsnummer {value0} muss erst eingelagert werden.",
+  "@service_point__relocating_not_possible_1": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "service_point__relocating_not_possible_2": "Keine Umlagerung möglich. Das Paket mit der Sendungsnummer {value0} ist bereits ausgelagert.",
+  "@service_point__relocating_not_possible_2": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "service_point__relocating_not_possible_3": "Keine Umlagerung nötig. Das Paket mit der Sendungsnummer {value0} ist bereits auf diesem Stellplatz.",
+  "@service_point__relocating_not_possible_3": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "service_point__still_data_on_this_device_do_you_want_to_delete": "Es sind noch Daten auf dem Gerät vorhanden. Wollen Sie diese löschen?",
+  "@service_point__still_data_on_this_device_do_you_want_to_delete": {
+    "type": "text"
+  },
+  "service_point__storage_location_scan_not_required": "Stellplatz-Scan nicht erforderlich.",
+  "@service_point__storage_location_scan_not_required": {
+    "type": "text"
+  },
+  "service_point__store_packages": "Pakete einlagern",
+  "@service_point__store_packages": {
+    "type": "text"
+  },
+  "service_point__storing_not_possible_1": "Keine Einlagerung möglich. Das Paket mit der Sendungsnummer {value0} wurde bereits in den Stellplatz {value1} eingelagert.",
+  "@service_point__storing_not_possible_1": {
+    "type": "text",
+    "placeholders": {
+      "value0": {},
+      "value1": {}
+    }
+  },
+  "service_point__storing_not_possible_2": "Keine Einlagerung möglich. Das Paket mit der Sendungsnummer {value0} is nicht für diese Filiale einzulagern.",
+  "@service_point__storing_not_possible_2": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "service_point__take_out_packages": "Pakete auslagern",
+  "@service_point__take_out_packages": {
+    "type": "text"
+  },
+  "service_point__taking_out_not_possible_1": "Keine Auslagerung möglich. Das Paket mit der Sendungsnummer {value0} wurde bereits ausgelagert.",
+  "@service_point__taking_out_not_possible_1": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "service_point__taking_out_not_possible_2": "Keine Auslagerung möglich. Das Paket mit der Sendungsnummer {value0} ist nicht zur Auslagerung vorgesehen.",
+  "@service_point__taking_out_not_possible_2": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "service_point__unknown_package_with_number_x": "Das Paket mit der Sendungsnummer {value0} ist nicht bekannt.",
+  "@service_point__unknown_package_with_number_x": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "settings__caution_export_files_on_device": "ACHTUNG! Es sind unausgelesene Daten auf dem Gerät vorhanden. Wollen Sie die Änderungen speichern und alle Daten unwiderruflich löschen?",
+  "@settings__caution_export_files_on_device": {
+    "type": "text"
+  },
+  "settings__delete_data": "Daten löschen",
+  "@settings__delete_data": {
+    "type": "text"
+  },
+  "settings__delete_export_files_confirm_again": "Erneut bestätigen um die unausgelesenen Daten auf dem Gerät zu Löschen",
+  "@settings__delete_export_files_confirm_again": {
+    "type": "text"
+  },
+  "settings__enable_arm_mount_detection": "Erkennung der Armhalterung aktivieren",
+  "@settings__enable_arm_mount_detection": {
+    "type": "text"
+  },
+  "settings__internal_scanner": "Interner Scanner",
+  "@settings__internal_scanner": {
+    "type": "text"
+  },
+  "settings__language": "Sprache",
+  "@settings__language": {
+    "type": "text"
+  },
+  "settings__language_bulgarian": "Bulgarisch",
+  "@settings__language_bulgarian": {
+    "type": "text"
+  },
+  "settings__language_croatian": "Kroatisch",
+  "@settings__language_croatian": {
+    "type": "text"
+  },
+  "settings__language_czech": "Tschechisch",
+  "@settings__language_czech": {
+    "type": "text"
+  },
+  "settings__language_dutch": "Niederländisch",
+  "@settings__language_dutch": {
+    "type": "text"
+  },
+  "settings__language_english": "Englisch",
+  "@settings__language_english": {
+    "type": "text"
+  },
+  "settings__language_estonian": "Estnisch",
+  "@settings__language_estonian": {
+    "type": "text"
+  },
+  "settings__language_german": "Deutsch",
+  "@settings__language_german": {
+    "type": "text"
+  },
+  "settings__language_hungarian": "Ungarisch",
+  "@settings__language_hungarian": {
+    "type": "text"
+  },
+  "settings__language_latvian": "Lettisch",
+  "@settings__language_latvian": {
+    "type": "text"
+  },
+  "settings__language_lithuanian": "Litauisch",
+  "@settings__language_lithuanian": {
+    "type": "text"
+  },
+  "settings__language_polish": "Polnisch",
+  "@settings__language_polish": {
+    "type": "text"
+  },
+  "settings__language_romanian": "Rumänisch",
+  "@settings__language_romanian": {
+    "type": "text"
+  },
+  "settings__language_serbian": "Serbisch",
+  "@settings__language_serbian": {
+    "type": "text"
+  },
+  "settings__language_slovakian": "Slowakisch",
+  "@settings__language_slovakian": {
+    "type": "text"
+  },
+  "settings__language_slovenian": "Slowenisch",
+  "@settings__language_slovenian": {
+    "type": "text"
+  },
+  "settings__language_system": "System",
+  "@settings__language_system": {
+    "type": "text"
+  },
+  "settings__no_dedicated_picklist_server": "Kein eigener Picklistenserver",
+  "@settings__no_dedicated_picklist_server": {
+    "type": "text"
+  },
+  "settings__orientation": "Ausrichtung",
+  "@settings__orientation": {
+    "type": "text"
+  },
+  "settings__orientation_auto": "Auto",
+  "@settings__orientation_auto": {
+    "type": "text"
+  },
+  "settings__orientation_horizontal": "Horizontal",
+  "@settings__orientation_horizontal": {
+    "type": "text"
+  },
+  "settings__orientation_horizontal_180": "Horizontal 180°",
+  "@settings__orientation_horizontal_180": {
+    "type": "text"
+  },
+  "settings__orientation_vertical": "Vertikal",
+  "@settings__orientation_vertical": {
+    "type": "text"
+  },
+  "settings__pair": "Koppeln",
+  "@settings__pair": {
+    "type": "text"
+  },
+  "settings__rs5100_bluetooth_scanner": "RS5100 Bluetooth Scanner",
+  "@settings__rs5100_bluetooth_scanner": {
+    "type": "text"
+  },
+  "settings__unpair": "Entkoppeln",
+  "@settings__unpair": {
+    "type": "text"
+  },
+  "settings__unpair_all_scanners": "Alle Scanner entkoppeln",
+  "@settings__unpair_all_scanners": {
+    "type": "text"
+  },
+  "stock_arrival__all_shipping_orders_scanned": "Es wurden alle Speditionsaufträge gescannt.",
+  "@stock_arrival__all_shipping_orders_scanned": {
+    "type": "text"
+  },
+  "stock_arrival__correction_delivery_2": "Korrekturlieferschein\nBitte auf Teile-Ebene scannen",
+  "@stock_arrival__correction_delivery_2": {
+    "type": "text"
+  },
+  "stock_arrival__delivery_ticket_contains_special_offer_goods": "Lieferschein enthält Aktionsware!",
+  "@stock_arrival__delivery_ticket_contains_special_offer_goods": {
+    "type": "text"
+  },
+  "stock_arrival__dornroeschen_on_dts": "Lieferschein enthält Dornröschenware!",
+  "@stock_arrival__dornroeschen_on_dts": {
+    "type": "text"
+  },
+  "stock_arrival__dornroeschen_on_dts_with_nr": "Dornröschenware auf Lieferschein-Nr.: ",
+  "@stock_arrival__dornroeschen_on_dts_with_nr": {
+    "type": "text"
+  },
+  "stock_arrival__dornroeschen_on_more_than_5_dts": "Artikel ist Dornröschenware!",
+  "@stock_arrival__dornroeschen_on_more_than_5_dts": {
+    "type": "text"
+  },
+  "stock_arrival__invalid_barcode_scanned_2": "Speditionsauftrag \"{value0}\" unbekannt. Bitte unter Wareneingang Avisierung prüfen.",
+  "@stock_arrival__invalid_barcode_scanned_2": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_3": "Ladeliste \"{value0}\" unbekannt. Bitte unter Wareneingang Avisierung prüfen.",
+  "@stock_arrival__invalid_barcode_scanned_3": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_4": "Lieferschein \"{value0}\" unbekannt. Bitte unter Wareneingang Avisierung prüfen.",
+  "@stock_arrival__invalid_barcode_scanned_4": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_5": "Teil \"{value0}\" unbekannt. Bitte unter Wareneingang Avisierung prüfen.",
+  "@stock_arrival__invalid_barcode_scanned_5": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_6": "Paket \"{value0}\" unbekannt. Bitte unter Wareneingang Avisierung prüfen.",
+  "@stock_arrival__invalid_barcode_scanned_6": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__scan_dhl_parcel": "DHL Paket enthalten\nBitte die Pakete scannen",
+  "@stock_arrival__scan_dhl_parcel": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level": "Es muss auf tieferer Ebene gescannt werden!",
+  "@stock_arrival__scan_on_lower_level": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level_2": "Es muss auf Ladelisten-Ebene gescannt werden",
+  "@stock_arrival__scan_on_lower_level_2": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level_3": "Es muss auf Lieferschein-Ebene gescannt werden",
+  "@stock_arrival__scan_on_lower_level_3": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level_4": "Es muss auf Teile-Ebene gescannt werden",
+  "@stock_arrival__scan_on_lower_level_4": {
+    "type": "text"
+  },
+  "stock_arrival__special_offer_goods_on_delivery_tickets_x": "Aktionsware auf Lieferscheinen: {value0}",
+  "@stock_arrival__special_offer_goods_on_delivery_tickets_x": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__special_offer_goods_on_more_than_5_delivery_tickets": "Aktionsware auf mehr als 5 Lieferscheinen!",
+  "@stock_arrival__special_offer_goods_on_more_than_5_delivery_tickets": {
+    "type": "text"
+  },
+  "stock_arrival__want_to_cancel_midway": "Wollen Sie die Bearbeitung mittendrin abbrechen?",
+  "@stock_arrival__want_to_cancel_midway": {
+    "type": "text"
+  },
+  "stocktaking__amount_not_reached": "Stückzahlvorgabe nicht erreicht!",
+  "@stocktaking__amount_not_reached": {
+    "type": "text"
+  },
+  "stocktaking__amount_of_storage_locations_reached": "Stellplatzvorgabe erreicht",
+  "@stocktaking__amount_of_storage_locations_reached": {
+    "type": "text"
+  },
+  "stocktaking__ask_force_closing": "Soll der Abstimmkreis geschlossen werden?",
+  "@stocktaking__ask_force_closing": {
+    "type": "text"
+  },
+  "stocktaking__close_abstimmkreis": "Abschließen",
+  "@stocktaking__close_abstimmkreis": {
+    "type": "text"
+  },
+  "stocktaking__close_abstimmkreis_question": "Abstimmkreis abschließen?",
+  "@stocktaking__close_abstimmkreis_question": {
+    "type": "text"
+  },
+  "stocktaking__emergency_products_are_not_allowed": "Not-EH-Artikel dürfen nicht erfasst werden",
+  "@stocktaking__emergency_products_are_not_allowed": {
+    "type": "text"
+  },
+  "stocktaking__employee_number": "Personalnr.:",
+  "@stocktaking__employee_number": {
+    "type": "text"
+  },
+  "stocktaking__exit_impossible": "Abstimmkreis nicht abgeschlossen! Beenden nicht möglich!",
+  "@stocktaking__exit_impossible": {
+    "type": "text"
+  },
+  "stocktaking__invalid_amount_of_storage_locations": "Ungültige Anzahl Stellplätze angegeben",
+  "@stocktaking__invalid_amount_of_storage_locations": {
+    "type": "text"
+  },
+  "stocktaking__invalid_capture_group": "Ungültiger Abstimmkreis!",
+  "@stocktaking__invalid_capture_group": {
+    "type": "text"
+  },
+  "stocktaking__invalid_place_quantity_max": "Die Anzahl der Stellplätze kann nicht größer als die Anzahl der Teile sein.",
+  "@stocktaking__invalid_place_quantity_max": {
+    "type": "text"
+  },
+  "stocktaking__invalid_place_quantity_min": "Die Anzahl der Stellplätze muss größer als 0 sein.",
+  "@stocktaking__invalid_place_quantity_min": {
+    "type": "text"
+  },
+  "stocktaking__invalid_record_forecast": "Ungültige Stückzahlvorgabe übergeben!",
+  "@stocktaking__invalid_record_forecast": {
+    "type": "text"
+  },
+  "stocktaking__inventory_area": "Abstimmkreis:",
+  "@stocktaking__inventory_area": {
+    "type": "text"
+  },
+  "stocktaking__not_active_for_x": "Inventur nicht aktiv für {value0}",
+  "@stocktaking__not_active_for_x": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stocktaking__range_not_complete": "Es wurden nur {value0} von {value1} Stellplätzen erfasst.",
+  "@stocktaking__range_not_complete": {
+    "type": "text",
+    "placeholders": {
+      "value0": {},
+      "value1": {}
+    }
+  },
+  "stocktaking__stellplatz_abstimmkreis": "Achtung! Der gescannte Stellplatz ist identisch mit dem Abstimmkreis!",
+  "@stocktaking__stellplatz_abstimmkreis": {
+    "type": "text"
+  },
+  "stocktaking__stocktaking_not_started": "Lagerinventur für den Stellplatzbereich nicht gestartet. Erfassung nicht möglich.",
+  "@stocktaking__stocktaking_not_started": {
+    "type": "text"
+  },
+  "stocktaking__target_amount_exceeded_scan_will_be_ignored": "Stückzahlvorgabe überschritten. Scan wird ignoriert.",
+  "@stocktaking__target_amount_exceeded_scan_will_be_ignored": {
+    "type": "text"
+  },
+  "stocktaking__target_amount_reached": "Stückzahlvorgabe erreicht!",
+  "@stocktaking__target_amount_reached": {
+    "type": "text"
+  },
+  "stocktaking__unknown_item_please_reprint": "Erfassung nicht möglich.\nTeil \"{value0}\" nicht im Filialbestand\nBitte über Inventur VK separat inventieren.",
+  "@stocktaking__unknown_item_please_reprint": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stocktaking__updated_existing_record": "Diese Teilenummer wurde bereits mit abweichenden Daten erfasst.",
+  "@stocktaking__updated_existing_record": {
+    "type": "text"
+  },
+  "stocktaking__updated_existing_record_selling_area": "Artikel war bereits vorhanden. Alter Eintrag entfernt.",
+  "@stocktaking__updated_existing_record_selling_area": {
+    "type": "text"
+  },
+  "stocktaking__x_has_no_sap_storage_location": "{value0} hat keinen SAP-Lagerort",
+  "@stocktaking__x_has_no_sap_storage_location": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stocktaking__x_is_unknown": "{value0} ist unbekannt",
+  "@stocktaking__x_is_unknown": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "warentransport__eingabe_address": "Adr.",
+  "@warentransport__eingabe_address": {
+    "type": "text"
+  },
+  "warentransport__eingabe_destination": "Ziel",
+  "@warentransport__eingabe_destination": {
+    "type": "text"
+  },
+  "warentransport__eingabe_type": "Typ",
+  "@warentransport__eingabe_type": {
+    "type": "text"
+  },
+  "warentransport__erfassung_table_header_h_l": "HL",
+  "@warentransport__erfassung_table_header_h_l": {
+    "type": "text"
+  },
+  "warentransport__erfassung_title": "Transport ({value0})",
+  "@warentransport__erfassung_title": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "warentransport__only_possible_with_two_storage_addresses": "Ein Warentransport ist nur zwischen 2 unterschiedlichen Lageradressen möglich.",
+  "@warentransport__only_possible_with_two_storage_addresses": {
+    "type": "text"
+  },
+  "warentransport__picklist_maximum_amount_of_items_reached": "Maximale Anzahl erreicht. Bitte lesen Sie das Gerät aus.",
+  "@warentransport__picklist_maximum_amount_of_items_reached": {
+    "type": "text"
+  },
+  "warentransport__preseason_bestprice_blocked_during_inventory": "Vorsaison- und Bestpriceware kann während der Inventur nicht in die Filiale transportiert werden.",
+  "@warentransport__preseason_bestprice_blocked_during_inventory": {
+    "type": "text"
+  },
+  "warentransport__unknown_storage_address_please_load_data": "Aktuelle Lageradresse ist unbekannt. Bitte beladen Sie das Gerät zuerst mit den Bestandsdaten.",
+  "@warentransport__unknown_storage_address_please_load_data": {
+    "type": "text"
+  },
+  "warentransport__unknown_storage_addresses_please_load_data": "Die in Ihrem Haus vorhanden Lageradressen sind unbekannt. Bitte beladen Sie das Gerät zuerst mit den Bestandsdaten.",
+  "@warentransport__unknown_storage_addresses_please_load_data": {
+    "type": "text"
+  },
+  "counter__counters": "Zähler",
+  "@counter__counters": {
+    "type": "text"
+  },
+  "counter__coffee": "Kaffee",
+  "@counter__coffee": {
+    "type": "text"
+  },
+  "counter__waterGlasses": "Wassergläser",
+  "@counter__waterGlasses": {
+    "type": "text"
+  },
+  "counter__overtime": "Überstunden",
+  "@counter__overtime": {
+    "type": "text"
+  },
+  "counter__cookies": "Kekse",
+  "@counter__cookies": {
+    "type": "text"
+  },
+  "counter__decrementHint": "Negative Werte sind nicht zulässig.",
+  "@counter__decrementHint": {
+    "type": "text"
+  },
+  "general__sessionExpired": "Die Sitzung ist abgelaufen.\nBitte melde dich erneut an.",
+  "@general__sessionExpired": {
+    "type": "text"
+  },
+  "general__generalError": "Es ist ein Fehler aufgetreten.\nBitte versuche es später nochmal.",
+  "@general__generalError": {
+    "type": "text"
+  },
+  "general__homepage": "Startseite",
+  "@general__homepage": {
+    "type": "text"
+  },
+  "general__submit": "Absenden",
+  "@general__submit": {
+    "type": "text"
+  },
+  "general__login": "Anmelden",
+  "@general__login": {
+    "type": "text"
+  },
+  "general__logout": "Abmelden",
+  "@general__logout": {
+    "type": "text"
+  },
+  "logout__success": "Du wurdest erfolgreich abgemeldet.",
+  "@logout__success": {
+    "type": "text"
+  },
+  "login__success": "Du wurdest erfolgreich angemeldet.",
+  "@login__success": {
+    "type": "text"
+  },
+  "login__authorizationError": "Anmeldedaten ungültig oder unbekannt.",
+  "@login__authorizationError": {
+    "type": "text"
+  },
+  "counter__confirmDelete": "Möchtest du diesen Zähler wirklich löschen?",
+  "@counter__confirmDelete": {
+    "type": "text"
+  },
+  "general__houseNumber": "Hausnummer",
+  "@general__houseNumber": {
+    "type": "text"
+  },
+  "general__design": "Design",
+  "@general__design": {
+    "type": "text"
+  },
+  "general__system": "System",
+  "@general__system": {
+    "type": "text"
+  },
+  "general__light": "Hell",
+  "@general__light": {
+    "type": "text"
+  },
+  "general__dark": "Dunkel",
+  "@general__dark": {
+    "type": "text"
+  },
+  "general__reset": "Zurücksetzen",
+  "@general__reset": {
+    "type": "text"
+  },
+  "general__delete": "Löschen",
+  "@general__delete": {
+    "type": "text"
+  },
+  "database__reset": "Datenbank zurücksetzen",
+  "@database__reset": {
+    "type": "text"
+  },
+  "database__resetTable": "Datenbank-Tabelle zurücksetzen",
+  "@database__resetTable": {
+    "type": "text"
+  }
+}

@@ -1,0 +1,599 @@
+{
+  "@@locale": "lv",
+  "datatransfer__device_could_not_be_registered": "Ierīci nevarēja reģistrēt!",
+  "@datatransfer__device_could_not_be_registered": {
+    "type": "text"
+  },
+  "datatransfer__device_has_been_registered": "Ierīce tika reģistrēta!",
+  "@datatransfer__device_has_been_registered": {
+    "type": "text"
+  },
+  "dispohz__product_not_in_file": "Piegāde nav pieejama cenu pazemināšanas failā.",
+  "@dispohz__product_not_in_file": {
+    "type": "text"
+  },
+  "duplicator__please_scan_old_price": "Lūdzu, ieskenējiet veco cenu.",
+  "@duplicator__please_scan_old_price": {
+    "type": "text"
+  },
+  "duplicator__please_scan_red_price": "Lūdzu, ieskenējiet cenu ar atlaidi.",
+  "@duplicator__please_scan_red_price": {
+    "type": "text"
+  },
+  "duplicator__red_price_too_high": "Cena ar atlaidi ir pārāk augsta.",
+  "@duplicator__red_price_too_high": {
+    "type": "text"
+  },
+  "general__amount_short": "Anz.",
+  "@general__amount_short": {
+    "type": "text"
+  },
+  "general__do_you_really_want_to_hold_current_item": "Vai tiešām vēlaties novietot pašreizējo pozīciju?",
+  "@general__do_you_really_want_to_hold_current_item": {
+    "type": "text"
+  },
+  "general__invalid_barcode": "Nederīgs svītrkods.",
+  "@general__invalid_barcode": {
+    "type": "text"
+  },
+  "general__invalid_barcode_scanned": "Noskenēts nepareizs svītrkods.\n{value0}",
+  "@general__invalid_barcode_scanned": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "general__invalid_checkdigit": "Kontrolcipars nav pareizs.",
+  "@general__invalid_checkdigit": {
+    "type": "text"
+  },
+  "general__invalid_country": "Nepareiza valsts.",
+  "@general__invalid_country": {
+    "type": "text"
+  },
+  "general__invalid_ean13": "Nederīgs EAN13",
+  "@general__invalid_ean13": {
+    "type": "text"
+  },
+  "general__invalid_ean8": "Nederīgs EAN8",
+  "@general__invalid_ean8": {
+    "type": "text"
+  },
+  "general__invalid_employee_number": "Personāla numurs nav derīgs.",
+  "@general__invalid_employee_number": {
+    "type": "text"
+  },
+  "general__invalid_input": "Nederīga ievade.",
+  "@general__invalid_input": {
+    "type": "text"
+  },
+  "general__invalid_item_number": "Nederīgs preces numurs.",
+  "@general__invalid_item_number": {
+    "type": "text"
+  },
+  "general__item_number_short": "Preces Nr.",
+  "@general__item_number_short": {
+    "type": "text"
+  },
+  "general__next": "Tālāk",
+  "@general__next": {
+    "type": "text"
+  },
+  "general__no": "Nē",
+  "@general__no": {
+    "type": "text"
+  },
+  "general__no_base_data": "Ierīcē nav pieejami dati par krājumu.",
+  "@general__no_base_data": {
+    "type": "text"
+  },
+  "general__no_hz_info_for_this_item": "Šai precei nav HZ informācijas.",
+  "@general__no_hz_info_for_this_item": {
+    "type": "text"
+  },
+  "general__ok": "Labi",
+  "@general__ok": {
+    "type": "text"
+  },
+  "general__order_number": "Pasūtījuma Nr.",
+  "@general__order_number": {
+    "type": "text"
+  },
+  "general__please_scan_label": "Lūdzu, noskenējiet etiķeti.",
+  "@general__please_scan_label": {
+    "type": "text"
+  },
+  "general__product": "EH prece",
+  "@general__product": {
+    "type": "text"
+  },
+  "general__product_has_different_red_prices": "EH precei ir izmēri ar atšķirīgu cenu informāciju. Vai tomēr drukāt cenu ar atlaidi?",
+  "@general__product_has_different_red_prices": {
+    "type": "text"
+  },
+  "general__quantity": "Daudzums",
+  "@general__quantity": {
+    "type": "text"
+  },
+  "general__red_price": "Cena ar atlaidi",
+  "@general__red_price": {
+    "type": "text"
+  },
+  "general__redprices_identically": "Cenas ar atlaidēm ir identiskas",
+  "@general__redprices_identically": {
+    "type": "text"
+  },
+  "general__size": "Izmērs",
+  "@general__size": {
+    "type": "text"
+  },
+  "general__storage_location": "Novietošanas vieta",
+  "@general__storage_location": {
+    "type": "text"
+  },
+  "general__version": "Versija",
+  "@general__version": {
+    "type": "text"
+  },
+  "general__yes": "Jā",
+  "@general__yes": {
+    "type": "text"
+  },
+  "mbinfo__min_amount": "Min. daudz.",
+  "@mbinfo__min_amount": {
+    "type": "text"
+  },
+  "mbinfo__no_product_info": "Informācija par EH preci nav pieejama",
+  "@mbinfo__no_product_info": {
+    "type": "text"
+  },
+  "mbinfo__on_selling": "Ir veikalā",
+  "@mbinfo__on_selling": {
+    "type": "text"
+  },
+  "mbinfo__sum": "Kopā",
+  "@mbinfo__sum": {
+    "type": "text"
+  },
+  "menu__app_data_transfer": "Datu pārsūtīšana",
+  "@menu__app_data_transfer": {
+    "type": "text"
+  },
+  "menu__app_duplicator": "Kopējamais aparāts",
+  "@menu__app_duplicator": {
+    "type": "text"
+  },
+  "menu__app_pl07_item_movement": "Ievietošana krājumā un pārvietošana",
+  "@menu__app_pl07_item_movement": {
+    "type": "text"
+  },
+  "menu__app_pl07_missing_items": "Trūkstošas preces",
+  "@menu__app_pl07_missing_items": {
+    "type": "text"
+  },
+  "menu__app_pl07_pick_instruction": "Atlasīšana",
+  "@menu__app_pl07_pick_instruction": {
+    "type": "text"
+  },
+  "menu__app_pl07_red_prices_old": "Cenas ar atlaidēm",
+  "@menu__app_pl07_red_prices_old": {
+    "type": "text"
+  },
+  "menu__app_pl07_red_prices_selling_area": "Veikala cenas ar atlaidēm",
+  "@menu__app_pl07_red_prices_selling_area": {
+    "type": "text"
+  },
+  "menu__app_pl07_stock_arrival_mb_info_product_info": "Informācija par EH preci",
+  "@menu__app_pl07_stock_arrival_mb_info_product_info": {
+    "type": "text"
+  },
+  "menu__app_pl07_ware_transfer": "Preču transportēšana",
+  "@menu__app_pl07_ware_transfer": {
+    "type": "text"
+  },
+  "menu__app_service_point": "Apkalpošanas punkts",
+  "@menu__app_service_point": {
+    "type": "text"
+  },
+  "menu__app_stocktaking_selling_area": "Veikala inventarizācija",
+  "@menu__app_stocktaking_selling_area": {
+    "type": "text"
+  },
+  "menu__app_stocktaking_stock": "Noliktavas inventarizācija",
+  "@menu__app_stocktaking_stock": {
+    "type": "text"
+  },
+  "menu__pl07_stock_arrival": "Preču saņemšana",
+  "@menu__pl07_stock_arrival": {
+    "type": "text"
+  },
+  "menu__settings": "Iestatījumi",
+  "@menu__settings": {
+    "type": "text"
+  },
+  "menu__stocktaking": "Inventārs",
+  "@menu__stocktaking": {
+    "type": "text"
+  },
+  "missing_item__item_is_no_missing_item": "Saskaņā ar sistēmu šī prece nav trūkstoša prece.",
+  "@missing_item__item_is_no_missing_item": {
+    "type": "text"
+  },
+  "missing_item__missing_item_dest_form": "Trūkstošās preces mērķa vieta",
+  "@missing_item__missing_item_dest_form": {
+    "type": "text"
+  },
+  "missing_item__missing_item_search_complete": "Trūkstošas preces meklēšana ir pilnībā pabeigta. Lūdzu, pārsūtiet datus darba stacijā, izmantojot kases pamatizvēlni.",
+  "@missing_item__missing_item_search_complete": {
+    "type": "text"
+  },
+  "missing_item__reason_1": "palaists garām",
+  "@missing_item__reason_1": {
+    "type": "text"
+  },
+  "missing_item__reason_2": "nepareizs kods",
+  "@missing_item__reason_2": {
+    "type": "text"
+  },
+  "missing_item__reason_3": "nepareiza vieta",
+  "@missing_item__reason_3": {
+    "type": "text"
+  },
+  "missing_item__reason_4": "pārdošanā",
+  "@missing_item__reason_4": {
+    "type": "text"
+  },
+  "missing_item__reason_5": "cits",
+  "@missing_item__reason_5": {
+    "type": "text"
+  },
+  "missing_item__reason_form": "Iemesls preces iztrūkumam",
+  "@missing_item__reason_form": {
+    "type": "text"
+  },
+  "missing_item__search_complete": "Trūkstošas preces meklēšana ir pilnībā pabeigta. Lūdzu, pārsūtiet datus darba stacijā, izmantojot kases pamatizvēlni.",
+  "@missing_item__search_complete": {
+    "type": "text"
+  },
+  "missing_item__search_form": "Trūkstošas preces ({value0})",
+  "@missing_item__search_form": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "pick_instruction__amount": "Daudz.",
+  "@pick_instruction__amount": {
+    "type": "text"
+  },
+  "pick_instruction__dest_branch": "Mērķa veikals",
+  "@pick_instruction__dest_branch": {
+    "type": "text"
+  },
+  "pick_instruction__error_during_save": "Kļūda saglabājot datus.",
+  "@pick_instruction__error_during_save": {
+    "type": "text"
+  },
+  "pick_instruction__error_no_more_data": "Nav papildu datu.",
+  "@pick_instruction__error_no_more_data": {
+    "type": "text"
+  },
+  "pick_instruction__floor": "Stāvs",
+  "@pick_instruction__floor": {
+    "type": "text"
+  },
+  "pick_instruction__hold_item": "Novietot",
+  "@pick_instruction__hold_item": {
+    "type": "text"
+  },
+  "pick_instruction__image": "Attēls",
+  "@pick_instruction__image": {
+    "type": "text"
+  },
+  "pick_instruction__is_stock_empty_now": "Vai vieta\n{value0}\ntagad ir brīva?",
+  "@pick_instruction__is_stock_empty_now": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "pick_instruction__item_already_picked": "Prece jau ir atlasīta.",
+  "@pick_instruction__item_already_picked": {
+    "type": "text"
+  },
+  "pick_instruction__item_doesnt_exists_in_system": "Saskaņā ar sistēmu, šī prece nav pieejama.",
+  "@pick_instruction__item_doesnt_exists_in_system": {
+    "type": "text"
+  },
+  "pick_instruction__item_has_wrong_size": "Precei ir nepareizs izmērs.",
+  "@pick_instruction__item_has_wrong_size": {
+    "type": "text"
+  },
+  "pick_instruction__item_invalid_place": "Saskaņā ar sistēmu, šī prece nav šajā vietā.\nTomēr atlasīt?",
+  "@pick_instruction__item_invalid_place": {
+    "type": "text"
+  },
+  "pick_instruction__item_number": "Preces Nr.",
+  "@pick_instruction__item_number": {
+    "type": "text"
+  },
+  "pick_instruction__item_number2": "Preces Nr.",
+  "@pick_instruction__item_number2": {
+    "type": "text"
+  },
+  "pick_instruction__level": "Stāvs",
+  "@pick_instruction__level": {
+    "type": "text"
+  },
+  "pick_instruction__no_manual_input": "Nav atļauta manuāla pakošanas galda daļas ievadīšana vai skenēšana. Nepieciešama reālā cena.",
+  "@pick_instruction__no_manual_input": {
+    "type": "text"
+  },
+  "pick_instruction__no_more_items_hold": "Novietošana nav iespējama. Sasniegts maksimālais skaits.",
+  "@pick_instruction__no_more_items_hold": {
+    "type": "text"
+  },
+  "pick_instruction__picking_complete": "Atlasīšana ir pilnībā pabeigta. Lūdzu, pārsūtiet datus darba stacijā, izmantojot kases pamatizvēlni.",
+  "@pick_instruction__picking_complete": {
+    "type": "text"
+  },
+  "pick_instruction__place": "Novietošanas vieta",
+  "@pick_instruction__place": {
+    "type": "text"
+  },
+  "pick_instruction__product_has_sizes_with_different_redprices_print_anyway": "EH precei ir izmēri ar atšķirīgu cenu informāciju. Vai tomēr drukāt cenu ar atlaidi?",
+  "@pick_instruction__product_has_sizes_with_different_redprices_print_anyway": {
+    "type": "text"
+  },
+  "pick_instruction__product_variation_not_for_picking": "EH prece / izmērs no šīs vietas nav paredzēts atlasīšanai.",
+  "@pick_instruction__product_variation_not_for_picking": {
+    "type": "text"
+  },
+  "pick_instruction__reprint": "Drukāt atkārtoti",
+  "@pick_instruction__reprint": {
+    "type": "text"
+  },
+  "pick_instruction__room": "Telpa",
+  "@pick_instruction__room": {
+    "type": "text"
+  },
+  "pick_instruction__row": "Rinda",
+  "@pick_instruction__row": {
+    "type": "text"
+  },
+  "pick_instruction__selling_area": "PĀRDOŠANA",
+  "@pick_instruction__selling_area": {
+    "type": "text"
+  },
+  "pick_instruction__set_as_missing_item": "Vai tiešām vēlaties rezervēt šo preci kā trūkstošu preci?",
+  "@pick_instruction__set_as_missing_item": {
+    "type": "text"
+  },
+  "pick_instruction__wrong_product": "Nepareiza EH prece.",
+  "@pick_instruction__wrong_product": {
+    "type": "text"
+  },
+  "red_prices_old__no_pricecode_availalbe": "Nav iespējams noteikt cenas kodu jaunajai cenai ar atlaidi.",
+  "@red_prices_old__no_pricecode_availalbe": {
+    "type": "text"
+  },
+  "red_prices_old__no_redprice_info_available": "Nav pieejama informācija par cenu ar atlaidi.",
+  "@red_prices_old__no_redprice_info_available": {
+    "type": "text"
+  },
+  "red_prices_old__productvariation_not_for_picking": "EH prece / izmērs no šīs vietas nav paredzēts atlasīšanai.",
+  "@red_prices_old__productvariation_not_for_picking": {
+    "type": "text"
+  },
+  "red_prices_selling__hz_process_completed": "Pazemināšana ir pilnībā pabeigta. Lūdzu, pārsūtiet datus darba stacijā, izmantojot kases pamatizvēlni.",
+  "@red_prices_selling__hz_process_completed": {
+    "type": "text"
+  },
+  "stock_arrival__all_shipping_orders_scanned": "Noskenēti visi piegādes uzdevumi.",
+  "@stock_arrival__all_shipping_orders_scanned": {
+    "type": "text"
+  },
+  "stock_arrival__correction_delivery_2": "Korekcijas pavadzīme.\nLūdzu, skenējiet preču līmenī.",
+  "@stock_arrival__correction_delivery_2": {
+    "type": "text"
+  },
+  "stock_arrival__invalid_barcode_scanned_2": "Piegādes uzdevums \"{value0}\" nav pieejams vai ir jau ieskenēts.",
+  "@stock_arrival__invalid_barcode_scanned_2": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_3": "Kravas saraksts \"{value0}\" nav pieejams vai ir jau ieskenēts.",
+  "@stock_arrival__invalid_barcode_scanned_3": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_4": "Pavadzīme \"{value0}\" nav pieejama vai ir jau ieskenēta.",
+  "@stock_arrival__invalid_barcode_scanned_4": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_5": "Prece \"{value0}\" nav pieejama vai ir jau ieskenēta.",
+  "@stock_arrival__invalid_barcode_scanned_5": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__invalid_barcode_scanned_6": "Paka \"{value0}\" nav pieejama vai ir jau ieskenēta.",
+  "@stock_arrival__invalid_barcode_scanned_6": {
+    "type": "text",
+    "placeholders": {
+      "value0": {}
+    }
+  },
+  "stock_arrival__scan_dhl_parcel": "Iekļauta DHL paka. Lūdzu, noskenējiet paciņas.",
+  "@stock_arrival__scan_dhl_parcel": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level": "Nepieciešams skenēt zemākā līmenī.",
+  "@stock_arrival__scan_on_lower_level": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level_2": "Nepieciešams skenēt kravas sarakstu līmenī.",
+  "@stock_arrival__scan_on_lower_level_2": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level_3": "Nepieciešams skenēt pavadzīmju līmenī.",
+  "@stock_arrival__scan_on_lower_level_3": {
+    "type": "text"
+  },
+  "stock_arrival__scan_on_lower_level_4": "Nepieciešams skenēt preču līmenī.",
+  "@stock_arrival__scan_on_lower_level_4": {
+    "type": "text"
+  },
+  "stocktaking__amount_not_reached": "Plānotais daudzums nav sasniegts.",
+  "@stocktaking__amount_not_reached": {
+    "type": "text"
+  },
+  "stocktaking__amount_of_storage_locations_reached": "Sasniegta plānotā vieta.",
+  "@stocktaking__amount_of_storage_locations_reached": {
+    "type": "text"
+  },
+  "stocktaking__ask_force_closing": "Vai slēgt inventāra zonu?",
+  "@stocktaking__ask_force_closing": {
+    "type": "text"
+  },
+  "stocktaking__employee_number": "Personāla Nr.",
+  "@stocktaking__employee_number": {
+    "type": "text"
+  },
+  "stocktaking__exit_impossible": "Inventāra zona nav noslēgta. Pabeigšana nav iespējama.",
+  "@stocktaking__exit_impossible": {
+    "type": "text"
+  },
+  "stocktaking__invalid_amount_of_storage_locations": "Norādīts nederīgs vietu skaits.",
+  "@stocktaking__invalid_amount_of_storage_locations": {
+    "type": "text"
+  },
+  "stocktaking__invalid_record_forecast": "Nodots nederīgs plānotais daudzums.",
+  "@stocktaking__invalid_record_forecast": {
+    "type": "text"
+  },
+  "stocktaking__inventory_area": "Inventāra zona:",
+  "@stocktaking__inventory_area": {
+    "type": "text"
+  },
+  "stocktaking__target_amount_reached": "Sasniegts plānotais daudzums.",
+  "@stocktaking__target_amount_reached": {
+    "type": "text"
+  },
+  "stocktaking__updated_existing_record_selling_area": "Prece jau bija pieejama. Vecais ieraksts dzēsts.",
+  "@stocktaking__updated_existing_record_selling_area": {
+    "type": "text"
+  },
+  "warentransport__picklist_maximum_amount_of_items_reached": "Sasniegts maksimālais skaits. Lūdzu, pārsūtiet datus no ierīces.",
+  "@warentransport__picklist_maximum_amount_of_items_reached": {
+    "type": "text"
+  },
+  "counter__counters": "Zähler",
+  "@counter__counters": {
+    "type": "text"
+  },
+  "counter__coffee": "Kaffee",
+  "@counter__coffee": {
+    "type": "text"
+  },
+  "counter__waterGlasses": "Wassergläser",
+  "@counter__waterGlasses": {
+    "type": "text"
+  },
+  "counter__overtime": "Überstunden",
+  "@counter__overtime": {
+    "type": "text"
+  },
+  "counter__cookies": "Kekse",
+  "@counter__cookies": {
+    "type": "text"
+  },
+  "counter__decrementHint": "Negative Werte sind nicht zulässig.",
+  "@counter__decrementHint": {
+    "type": "text"
+  },
+  "general__sessionExpired": "Die Sitzung ist abgelaufen.\nBitte melde dich erneut an.",
+  "@general__sessionExpired": {
+    "type": "text"
+  },
+  "general__generalError": "Es ist ein Fehler aufgetreten.\nBitte versuche es später nochmal.",
+  "@general__generalError": {
+    "type": "text"
+  },
+  "general__homepage": "Startseite",
+  "@general__homepage": {
+    "type": "text"
+  },
+  "general__submit": "Absenden",
+  "@general__submit": {
+    "type": "text"
+  },
+  "general__login": "Anmelden",
+  "@general__login": {
+    "type": "text"
+  },
+  "general__logout": "Abmelden",
+  "@general__logout": {
+    "type": "text"
+  },
+  "logout__success": "Du wurdest erfolgreich abgemeldet.",
+  "@logout__success": {
+    "type": "text"
+  },
+  "login__success": "Du wurdest erfolgreich angemeldet.",
+  "@login__success": {
+    "type": "text"
+  },
+  "login__authorizationError": "Anmeldedaten ungültig oder unbekannt.",
+  "@login__authorizationError": {
+    "type": "text"
+  },
+  "counter__confirmDelete": "Möchtest du diesen Zähler wirklich löschen?",
+  "@counter__confirmDelete": {
+    "type": "text"
+  },
+  "general__houseNumber": "Hausnummer",
+  "@general__houseNumber": {
+    "type": "text"
+  },
+  "general__design": "Design",
+  "@general__design": {
+    "type": "text"
+  },
+  "general__system": "System",
+  "@general__system": {
+    "type": "text"
+  },
+  "general__light": "Hell",
+  "@general__light": {
+    "type": "text"
+  },
+  "general__dark": "Dunkel",
+  "@general__dark": {
+    "type": "text"
+  },
+  "general__reset": "Zurücksetzen",
+  "@general__reset": {
+    "type": "text"
+  },
+  "general__delete": "Löschen",
+  "@general__delete": {
+    "type": "text"
+  },
+  "database__reset": "Datenbank zurücksetzen",
+  "@database__reset": {
+    "type": "text"
+  },
+  "database__resetTable": "Datenbank-Tabelle zurücksetzen",
+  "@database__resetTable": {
+    "type": "text"
+  }
+}
