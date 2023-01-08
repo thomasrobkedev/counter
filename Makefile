@@ -11,13 +11,13 @@ run-external-api: ## Startet die App mit der externen API
 	@flutter run lib/main_external_api.dart
 
 # ------------------------------------------------------------
-tests: ## Führt die Integrationstests EINMALIG aus.
-	@flutter test integration_test/main_test.dart
-
-tests-watch: ## Führt die Integrationstests aus und wartet dann auf [SHIFT + R] für einen erneuten Lauf. 
+test: ## Führt die Integrationstests aus und wartet dann auf [SHIFT + R] für einen erneuten Lauf. Die App bleibt installiert. 
 	@flutter run integration_test/main_test.dart
 
-unit-tests: ## Führt die Unit-Tests aus. Genauer: alle Dateien mit folgendem Muster: /test/**_test.dart
+test-single-run: ## Führt die Integrationstests EINMALIG aus. Falls erfolgreich, wird die App anschließend komplett deinstalliert.
+	@flutter test integration_test/main_test.dart
+
+unit-test: ## Führt die Unit-Tests aus. Genauer: alle Dateien mit folgendem Muster: /test/**_test.dart
 	@flutter test
 .PHONY: test
 
@@ -43,5 +43,5 @@ clean: ## Bereinigt den Projekt-Cache. Löscht die temporären Projekt-Ordner un
 	@flutter analyze
 
 # ------------------------------------------------------------
-phrasepull: ## Lädt die Sprachdateien von phrase.com und speichert sie als ARB Dateien ab.
-	@dart tools/make.dart 'phrasepull'
+translate: ## Genrierte die ARB-Sprachdateien aus der JSON-Vorlage
+	@dart tools/make.dart 'translate'

@@ -25,35 +25,9 @@ class T {
   String getLanguage(String? languageCode) {
     switch (languageCode) {
       case 'de':
-        return call().settings__language_german;
+        return call().settings__language_de;
       case 'en':
-        return call().settings__language_english;
-      case 'hr':
-        return call().settings__language_croatian;
-      case 'hu':
-        return call().settings__language_hungarian;
-      case 'nl':
-        return call().settings__language_dutch;
-      case 'pl':
-        return call().settings__language_polish;
-      case 'sk':
-        return call().settings__language_slovakian;
-      case 'cs':
-        return call().settings__language_czech;
-      case 'bg':
-        return call().settings__language_bulgarian;
-      case 'sl':
-        return call().settings__language_slovenian;
-      case 'ro':
-        return call().settings__language_romanian;
-      case 'sr':
-        return call().settings__language_serbian;
-      case 'lv':
-        return call().settings__language_latvian;
-      case 'lt':
-        return call().settings__language_lithuanian;
-      case 'et':
-        return call().settings__language_estonian;
+        return call().settings__language_en;
       default:
         return call().settings__language_system;
     }

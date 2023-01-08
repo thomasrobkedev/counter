@@ -15,6 +15,7 @@ class AppRouting {
   static const routeLogin = '/login';
   static const routeLogout = '/logout';
   static const routeSettings = '/settings';
+  static const routeFullscreenDialog = '/fullscreen-dialog';
 
   /// Wenn hier die Startseite geändert wird, muss das auch in den Tests angepasst werden. integration_test/functions.dart
   /// ```dart
@@ -42,16 +43,6 @@ class AppRouting {
         GoRoute(
           path: routeSettings,
           builder: (context, state) => SettingsPage(di()),
-          routes: [
-            GoRoute(
-              path: 'language',
-              pageBuilder: (context, state) => state.extra as Page,
-            ),
-            GoRoute(
-              path: 'theme-mode',
-              pageBuilder: (context, state) => state.extra as Page,
-            ),
-          ],
         ),
         GoRoute(
           path: routeCounters,
@@ -69,6 +60,13 @@ class AppRouting {
               },
             ),
           ],
+        ),
+        GoRoute(
+          path: routeFullscreenDialog,
+          pageBuilder: (context, state) => MaterialPage(
+            fullscreenDialog: true,
+            child: state.extra as Widget,
+          ),
         ),
       ],
     );

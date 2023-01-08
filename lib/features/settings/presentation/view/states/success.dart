@@ -18,7 +18,7 @@ class SettingsSuccessState extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    WidgetsBinding.instance.addPostFrameCallback((_) => AppSnackbar.success(context, T()().general__saved).show());
+    WidgetsBinding.instance.addPostFrameCallback((_) => AppSnackbar.success(T()().general__saved).show(context));
 
     return SingleChildScrollView(
       child: SettingsContentWidget(bloc, state.entity, context),

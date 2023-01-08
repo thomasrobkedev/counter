@@ -41,7 +41,7 @@ class SettingsHouseNumberWidget extends StatelessWidget {
           ),
           SizedBox(
             width: 40,
-            child: TextFormField(
+            child: TextField(
               key: ValueKey(Testkey.settings_houseNumberValue.toString()),
               controller: controller,
               keyboardType: TextInputType.number,

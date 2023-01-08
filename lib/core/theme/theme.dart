@@ -6,7 +6,8 @@ import 'custom_color.g.dart';
 class AppTheme {
   ThemeData getThemeData(BuildContext context, {required bool light}) {
     final colorScheme = light ? lightColorScheme : darkColorScheme;
-    final listTileTextStyle = TextStyle(fontWeight: FontWeight.normal, fontSize: Theme.of(context).textTheme.bodyMedium?.fontSize);
+    const bodyMediumFontSize = 15.0;
+    const bodyMediumTextStyle = TextStyle(fontWeight: FontWeight.normal, fontSize: bodyMediumFontSize);
 
     return ThemeData(
       useMaterial3: true,
@@ -14,16 +15,21 @@ class AppTheme {
       colorScheme: colorScheme,
       extensions: [light ? lightCustomColors : darkCustomColors],
       textTheme: TextTheme(
-        titleMedium: listTileTextStyle, // M2
-        bodyLarge: listTileTextStyle, // M3, https://github.com/flutter/flutter/issues/114006
+        bodyLarge: bodyMediumTextStyle.copyWith(fontSize: bodyMediumFontSize + 2),
+        bodyMedium: bodyMediumTextStyle,
+        bodySmall: bodyMediumTextStyle.copyWith(fontSize: bodyMediumFontSize - 2),
+
+        /// Material 2 - Globales Setzen des ListTile title fontsize wird noch nicht unterstützt. Darum der Umweg über titleMedium
+        titleMedium: bodyMediumTextStyle,
       ),
-      textButtonTheme: TextButtonThemeData(
-        style: TextButton.styleFrom(
-          backgroundColor: colorScheme.secondaryContainer,
-          foregroundColor: colorScheme.onSecondaryContainer,
-          padding: const EdgeInsets.symmetric(horizontal: 16),
-        ),
-      ),
+
+      /// Material 3 - Globales Setzen des ListTile title fontsize
+      /// https://github.com/flutter/flutter/pull/117965
+      /// https://github.com/flutter/flutter/issues/114006
+      //   listTileTheme: ListTileThemeData(
+      //      titleTextStyle: TextStyle(fontWeight: FontWeight.normal, fontSize: Theme.of(context).textTheme.bodyMedium?.fontSize),
+      //   ),
+
       cardTheme: CardTheme(
         elevation: 0,
         margin: const EdgeInsets.all(8),
@@ -34,24 +40,13 @@ class AppTheme {
       ),
       appBarTheme: AppBarTheme(
         centerTitle: true,
-        titleTextStyle: TextStyle(
-          fontFamily: 'MemoryScriptNord',
-          fontSize: Theme.of(context).textTheme.titleMedium?.fontSize,
-          color: colorScheme.onSurface,
-        ),
+        titleTextStyle: AppBarTheme.of(context).titleTextStyle?.copyWith(fontFamily: 'MemoryScriptNord'),
       ),
       pageTransitionsTheme: PageTransitionsTheme(
         builders: {
           for (var targetPlatform in TargetPlatform.values) targetPlatform: const CupertinoPageTransitionsBuilder(),
         },
       ),
-    );
-  }
-
-  ButtonStyle primaryButtonStyle(BuildContext context) {
-    return TextButton.styleFrom(
-      backgroundColor: Theme.of(context).colorScheme.primary,
-      foregroundColor: Theme.of(context).colorScheme.onPrimary,
     );
   }
 }

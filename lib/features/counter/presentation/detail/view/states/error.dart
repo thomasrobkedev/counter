@@ -22,7 +22,7 @@ class CounterDetailErrorState extends StatelessWidget {
 
     /// derzeit gibt es nur den zero underflow error. Sonst müsste hier noch feiner unterschieden werden
     if (state.error.code == 422) {
-      WidgetsBinding.instance.addPostFrameCallback((_) => AppSnackbar.warning(context, T()().counter__decrementHint).show());
+      WidgetsBinding.instance.addPostFrameCallback((_) => AppSnackbar.warning(T()().counter__decrementHint).show(context));
     }
 
     return CounterDetailContentWidget(bloc, state.entity);

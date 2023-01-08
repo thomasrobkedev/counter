@@ -5,22 +5,21 @@ import '../../theme/custom_color.g.dart';
 enum AppSnackbarType { system, success, info, warning }
 
 class AppSnackbar {
-  final BuildContext context;
   final String text;
   final AppSnackbarType type;
 
   const AppSnackbar(
-    this.context,
     this.text,
     this.type,
   );
 
-  AppSnackbar.system(this.context, this.text) : type = AppSnackbarType.system;
-  AppSnackbar.success(this.context, this.text) : type = AppSnackbarType.success;
-  AppSnackbar.info(this.context, this.text) : type = AppSnackbarType.info;
-  AppSnackbar.warning(this.context, this.text) : type = AppSnackbarType.warning;
+  AppSnackbar.system(this.text) : type = AppSnackbarType.system;
+  AppSnackbar.success(this.text) : type = AppSnackbarType.success;
+  AppSnackbar.info(this.text) : type = AppSnackbarType.info;
+  AppSnackbar.warning(this.text) : type = AppSnackbarType.warning;
 
-  void show() {
+  void show(BuildContext context) {
+    ScaffoldMessenger.of(context).removeCurrentSnackBar();
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         backgroundColor: _backgroundColor(context),

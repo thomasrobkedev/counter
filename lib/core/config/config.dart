@@ -3,7 +3,7 @@ enum AppEnvironment { dev, test, release }
 class AppConfig {
   late bool _initialized = false;
 
-  final List<String> supportedLocales = ['de', 'en', 'hr', 'hu', 'nl', 'pl', 'sk', 'cs', 'bg', 'sl', 'ro', 'sr', 'lv', 'lt', 'et'];
+  final List<String> supportedLocales = ['de', 'en'];
   final languageCodeNull = 'system';
   final apiMock = 'mock';
 

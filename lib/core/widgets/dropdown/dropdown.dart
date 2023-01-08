@@ -1,4 +1,6 @@
+import 'package:counter/core/routing/routing.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../../../core/enums/testkey.dart';
 import '../../../../core/extensions/list_divided.dart';
@@ -12,13 +14,18 @@ class AppDropdown<T> extends StatefulWidget {
   final bool multiple;
 
   const AppDropdown({
-    super.key,
     required this.title,
     required this.items,
     required this.callback,
     this.doneText,
     this.multiple = false,
+    super.key,
   });
+
+  void show(BuildContext context) {
+    ScaffoldMessenger.of(context).removeCurrentSnackBar();
+    context.push(AppRouting.routeFullscreenDialog, extra: this);
+  }
 
   @override
   State<AppDropdown<T>> createState() => _AppDropdownState<T>();
@@ -35,9 +42,15 @@ class _AppDropdownState<T> extends State<AppDropdown<T>> {
           Visibility(
             visible: widget.multiple,
             child: TextButton(
+              // TODO: Übersetzuung
               child: Text(widget.doneText ?? 'Fertig'),
               onPressed: () {
-                widget.callback(widget.items.where((item) => item.selected).toList() as List<T>);
+                final values = widget.items //
+                    .where((item) => item.selected)
+                    .map((item) => item.value as T)
+                    .toList();
+
+                widget.callback(values);
                 Navigator.pop(context);
               },
             ),

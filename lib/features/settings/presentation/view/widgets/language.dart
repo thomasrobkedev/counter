@@ -1,11 +1,9 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 
 import '../../../../../core/config/config.dart';
 import '../../../../../core/enums/testkey.dart';
-import '../../../../../core/routing/routing.dart';
 import '../../../../../core/utils/translations.dart';
 import '../../../../../core/widgets/dropdown/dropdown.dart';
 import '../../../../../core/widgets/dropdown/item.dart';
@@ -43,35 +41,24 @@ class SettingsLanguageWidget extends StatelessWidget {
         ],
       ),
       onTap: () {
-        ScaffoldMessenger.of(context).removeCurrentSnackBar();
-        context.push(
-          '${AppRouting.routeSettings}/language',
-          extra: MaterialPage(
-            fullscreenDialog: true,
-            child: AppDropdown<String?>(
-              title: T()().settings__language,
-              callback: callback,
-              items: [
-                AppDropdownItem<String?>(
-                  title: Text(
-                    '${T().getLanguage(AppConfig().languageCodeNull)} (${Platform.localeName.substring(0, 2)})',
-                  ),
-                  value: AppConfig().languageCodeNull,
-                  selected: entity.languageCode == AppConfig().languageCodeNull,
-                ),
-                ...AppConfig().supportedLocales.map(
-                      (languageCode) => AppDropdownItem<String?>(
-                        title: Text(
-                          T().getLanguage(languageCode),
-                        ),
-                        value: languageCode,
-                        selected: entity.languageCode == languageCode,
-                      ),
-                    ),
-              ],
+        AppDropdown<String>(
+          title: T()().settings__language,
+          callback: callback,
+          items: [
+            AppDropdownItem<String>(
+              title: Text('${T().getLanguage(AppConfig().languageCodeNull)} (${Platform.localeName.substring(0, 2)})'),
+              value: AppConfig().languageCodeNull,
+              selected: entity.languageCode == AppConfig().languageCodeNull,
             ),
-          ),
-        );
+            ...AppConfig().supportedLocales.map(
+                  (languageCode) => AppDropdownItem<String>(
+                    title: Text(T().getLanguage(languageCode)),
+                    value: languageCode,
+                    selected: entity.languageCode == languageCode,
+                  ),
+                ),
+          ],
+        ).show(context);
       },
     );
   }

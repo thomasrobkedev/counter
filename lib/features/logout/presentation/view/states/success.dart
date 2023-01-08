@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../../../../../core/enums/testkey.dart';
 import '../../../../../core/routing/routing.dart';
 import '../../../../../core/utils/translations.dart';
+import '../../../../../core/widgets/button/filled.dart';
 
 class LogoutSuccessState extends StatelessWidget {
   const LogoutSuccessState({super.key});
@@ -20,7 +21,7 @@ class LogoutSuccessState extends StatelessWidget {
                 T()().logout__success,
               ),
               const SizedBox(height: 16),
-              TextButton(
+              AppFilledButton(
                 key: ValueKey(Testkey.logout_loginButton.toString()),
                 onPressed: () => context.go(AppRouting.routeLogin),
                 child: Text(T()().general__login),

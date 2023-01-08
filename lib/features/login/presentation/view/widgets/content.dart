@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../../../../../core/enums/testkey.dart';
-import '../../../../../core/theme/theme.dart';
 import '../../../../../core/utils/translations.dart';
+import '../../../../../core/widgets/button/filled.dart';
 import '../../../domain/entities/entity.dart';
 import '../../bloc/bloc.dart';
 import '../../bloc/event.dart';
@@ -84,13 +84,10 @@ class _LoginContentWidgetState extends State<LoginContentWidget> {
               ),
             ),
             const SizedBox(height: 16),
-            TextButton(
+            AppFilledButton(
               key: ValueKey(Testkey.login_submitButton.toString()),
               onPressed: _submit,
-              style: AppTheme().primaryButtonStyle(context),
-              child: Text(
-                T()().general__submit,
-              ),
+              child: Text(T()().general__submit),
             ),
           ],
         ),

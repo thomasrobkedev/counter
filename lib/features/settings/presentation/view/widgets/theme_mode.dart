@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 
 import '../../../../../core/enums/testkey.dart';
-import '../../../../../core/routing/routing.dart';
 import '../../../../../core/utils/translations.dart';
 import '../../../../../core/widgets/dropdown/dropdown.dart';
 import '../../../../../core/widgets/dropdown/item.dart';
@@ -39,25 +37,21 @@ class SettingsThemeModeWidget extends StatelessWidget {
           ),
         ],
       ),
-      onTap: () => context.push(
-        '${AppRouting.routeSettings}/theme-mode',
-        extra: MaterialPage(
-          fullscreenDialog: true,
-          child: AppDropdown<ThemeMode>(
-            title: T()().general__design,
-            callback: callback,
-            items: [ThemeMode.system, ThemeMode.light, ThemeMode.dark]
-                .map(
-                  (themeMode) => AppDropdownItem<ThemeMode>(
-                    title: Text(_getDesign(context, themeMode)),
-                    value: themeMode,
-                    selected: entity.themeMode == themeMode,
-                  ),
-                )
-                .toList(),
-          ),
-        ),
-      ),
+      onTap: () {
+        AppDropdown<ThemeMode>(
+          title: T()().general__design,
+          callback: callback,
+          items: [ThemeMode.system, ThemeMode.light, ThemeMode.dark]
+              .map(
+                (themeMode) => AppDropdownItem<ThemeMode>(
+                  title: Text(_getDesign(context, themeMode)),
+                  value: themeMode,
+                  selected: entity.themeMode == themeMode,
+                ),
+              )
+              .toList(),
+        ).show(context);
+      },
     );
   }
 
