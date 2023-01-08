@@ -52,11 +52,11 @@ class _LoginContentWidgetState extends State<LoginContentWidget> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            TextFormField(
+            TextField(
               key: ValueKey(Testkey.login_pNumber.toString()),
               controller: pNumberController,
               keyboardType: TextInputType.number,
-              onFieldSubmitted: (_) => _submit(),
+              onSubmitted: (_) => _submit(),
               inputFormatters: [
                 FilteringTextInputFormatter.allow(RegExp(r'[0-9]')),
                 LengthLimitingTextInputFormatter(6),
@@ -70,11 +70,11 @@ class _LoginContentWidgetState extends State<LoginContentWidget> {
               ),
             ),
             const SizedBox(height: 16),
-            TextFormField(
+            TextField(
               key: ValueKey(Testkey.login_password.toString()),
               controller: passwordController,
               obscureText: !passwordVisible,
-              onFieldSubmitted: (_) => _submit(),
+              onSubmitted: (_) => _submit(),
               decoration: InputDecoration(
                 labelText: T()().general__password,
                 suffix: GestureDetector(
