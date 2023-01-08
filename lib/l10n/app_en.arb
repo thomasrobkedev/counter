@@ -44,6 +44,10 @@
   "@general__cancel": {
     "type": "text"
   },
+  "general__done": "Done",
+  "@general__done": {
+    "type": "text"
+  },
   "general__password": "Password",
   "@general__password": {
     "type": "text"

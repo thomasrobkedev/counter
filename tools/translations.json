@@ -43,6 +43,10 @@
     "de": "Abbrechen",
     "en": "Cancel"
   },
+  "general__done": {
+    "de": "Fertig",
+    "en": "Done"
+  },
   "general__password": {
     "de": "Passwort",
     "en": "Password"
