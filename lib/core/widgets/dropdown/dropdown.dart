@@ -4,20 +4,19 @@ import 'package:go_router/go_router.dart';
 import '../../../../core/enums/testkey.dart';
 import '../../../../core/extensions/list_divided.dart';
 import '../../routing/routing.dart';
+import '../../utils/translations.dart';
 import 'item.dart';
 
-class AppDropdown<T> extends StatefulWidget {
+class AppDropdown<Type> extends StatefulWidget {
   final String title;
   final List<AppDropdownItem> items;
   final Function(dynamic) callback;
-  final String? doneText;
   final bool multiple;
 
   const AppDropdown({
     required this.title,
     required this.items,
     required this.callback,
-    this.doneText,
     this.multiple = false,
     super.key,
   });
@@ -28,10 +27,10 @@ class AppDropdown<T> extends StatefulWidget {
   }
 
   @override
-  State<AppDropdown<T>> createState() => _AppDropdownState<T>();
+  State<AppDropdown<Type>> createState() => _AppDropdownState<Type>();
 }
 
-class _AppDropdownState<T> extends State<AppDropdown<T>> {
+class _AppDropdownState<Type> extends State<AppDropdown<Type>> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -42,12 +41,11 @@ class _AppDropdownState<T> extends State<AppDropdown<T>> {
           Visibility(
             visible: widget.multiple,
             child: TextButton(
-              // TODO: Übersetzuung
-              child: Text(widget.doneText ?? 'Fertig'),
+              child: Text(T()().general__done),
               onPressed: () {
                 final values = widget.items //
                     .where((item) => item.selected)
-                    .map((item) => item.value as T)
+                    .map((item) => item.value as Type)
                     .toList();
 
                 widget.callback(values);
@@ -76,7 +74,7 @@ class _AppDropdownState<T> extends State<AppDropdown<T>> {
                     if (widget.multiple) {
                       setState(() => item.selected = !item.selected);
                     } else {
-                      widget.callback(item.value as T);
+                      widget.callback(item.value as Type);
                       Navigator.pop(context);
                     }
                   },

@@ -11,13 +11,13 @@ run-external-api: ## Startet die App mit der externen API
 	@flutter run lib/main_external_api.dart
 
 # ------------------------------------------------------------
-test: ## Führt die Integrationstests aus und wartet dann auf [SHIFT + R] für einen erneuten Lauf. Die App bleibt installiert. 
+tests: ## Führt die Integrationstests aus und wartet dann auf [SHIFT + R] für einen erneuten Lauf. Die App bleibt installiert. 
 	@flutter run integration_test/main_test.dart
 
-test-single-run: ## Führt die Integrationstests EINMALIG aus. Falls erfolgreich, wird die App anschließend komplett deinstalliert.
+tests-single-run: ## Führt die Integrationstests EINMALIG aus. Falls erfolgreich, wird die App anschließend komplett deinstalliert.
 	@flutter test integration_test/main_test.dart
 
-unit-test: ## Führt die Unit-Tests aus. Genauer: alle Dateien mit folgendem Muster: /test/**_test.dart
+unit-tests: ## Führt die Unit-Tests aus. Genauer: alle Dateien mit folgendem Muster: /test/**_test.dart
 	@flutter test
 .PHONY: test
 
