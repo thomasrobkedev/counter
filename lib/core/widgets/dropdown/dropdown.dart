@@ -55,31 +55,33 @@ class _AppDropdownState<Type> extends State<AppDropdown<Type>> {
           ),
         ],
       ),
-      body: ListView(
-        children: widget.items
-            .map(
-              (AppDropdownItem item) => ListTile(
-                key: ValueKey(Testkey.dropdown_item.appendWithUnderscore(item.value)),
-                title: item.title,
-                selected: item.selected,
-                enabled: item.enabled,
-                trailing: item.selected
-                    ? Icon(
-                        Icons.check,
-                        key: ValueKey(Testkey.dropdown_item_icon.appendWithUnderscore(item.value)),
-                      )
-                    : null,
-                onTap: () {
-                  if (widget.multiple) {
-                    setState(() => item.selected = !item.selected);
-                  } else {
-                    widget.callback(item.value as Type);
-                    Navigator.pop(context);
-                  }
-                },
-              ),
-            )
-            .toListDivided(),
+      body: SingleChildScrollView(
+        child: Column(
+          children: widget.items
+              .map(
+                (AppDropdownItem item) => ListTile(
+                  key: ValueKey(Testkey.dropdown_item.appendWithUnderscore(item.value)),
+                  title: item.title,
+                  selected: item.selected,
+                  enabled: item.enabled,
+                  trailing: item.selected
+                      ? Icon(
+                          Icons.check,
+                          key: ValueKey(Testkey.dropdown_item_icon.appendWithUnderscore(item.value)),
+                        )
+                      : null,
+                  onTap: () {
+                    if (widget.multiple) {
+                      setState(() => item.selected = !item.selected);
+                    } else {
+                      widget.callback(item.value as Type);
+                      Navigator.pop(context);
+                    }
+                  },
+                ),
+              )
+              .toListDivided(),
+        ),
       ),
     );
   }
