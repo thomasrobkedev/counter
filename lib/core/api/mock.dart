@@ -22,10 +22,14 @@ class AppApiMock extends Interceptor {
     final name = AppConfig().environment.name;
     final path = '$databasesPath/$name.db';
 
-    _database = await openDatabase(path, version: 1, onCreate: _create);
+    _database = await openDatabase(
+      path,
+      version: 2,
+      onUpgrade: (db, _, __) => _create(db),
+    );
   }
 
-  Future<void> _create(Database db, int version) async {
+  Future<void> _create(Database db) async {
     final assetManifest = await rootBundle.loadString('AssetManifest.json');
     final Map<String, dynamic> json = jsonDecode(assetManifest);
 
@@ -46,12 +50,14 @@ class AppApiMock extends Interceptor {
 
   Future<void> _createTable(Database db, String table) async {
     final rawSQLString = await rootBundle.loadString('assets/database/$table.sql');
-    final sqlQueries = rawSQLString.trim().split(';');
+    final sqlQueries = rawSQLString //
+        .trim()
+        .split(';')
+        .map((query) => query.trim())
+        .where((query) => query.isNotEmpty);
 
     for (var query in sqlQueries) {
-      if (query.trim().isNotEmpty) {
-        await db.execute(query.trim());
-      }
+      await db.execute(query);
     }
   }
 }
