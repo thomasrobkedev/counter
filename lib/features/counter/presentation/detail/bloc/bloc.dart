@@ -27,7 +27,7 @@ class CounterDetailBloc extends Bloc<CounterDetailEvent, CounterDetailState> {
   }
 
   Future<void> _onLoaded(CounterDetailLoaded event, Emitter<CounterDetailState> emit) async {
-    _emit(emit, await _getCounter(event.id), const CounterEntity.empty());
+    _emit(emit, await _getCounter(event.entity.id), const CounterEntity.empty());
   }
 
   Future<void> _onIncrement(CounterDetailIncrementButtonsPressed event, Emitter<CounterDetailState> emit) async {

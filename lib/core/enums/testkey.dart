@@ -23,6 +23,7 @@ enum Testkey {
   counterList_cardName,
   counterList_cardValue,
   counterList_popupMenu,
+  counterList_reorder,
 
   counterDetail_page,
   counterDetail_title,

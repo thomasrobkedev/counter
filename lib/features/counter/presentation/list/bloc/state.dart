@@ -23,7 +23,6 @@ class CounterListDefault extends CounterListState {
 
 class CounterListError extends CounterListState {
   final AppError error;
-
   const CounterListError(super.entities, this.error);
 
   @override

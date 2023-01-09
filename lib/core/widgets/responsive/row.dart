@@ -12,11 +12,6 @@ class AppResponsiveRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      width: double.infinity,
-      child: Wrap(
-        children: children,
-      ),
-    );
+    return Wrap(children: children);
   }
 }

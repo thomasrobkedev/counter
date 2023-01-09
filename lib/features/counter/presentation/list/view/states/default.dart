@@ -15,6 +15,8 @@ class CounterListDefaultState extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    entities.sort((a, b) => a.index.compareTo(b.index));
+
     return SingleChildScrollView(
       child: Container(
         padding: const EdgeInsets.all(8),

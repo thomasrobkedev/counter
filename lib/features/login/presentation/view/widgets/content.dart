@@ -62,7 +62,7 @@ class _LoginContentWidgetState extends State<LoginContentWidget> {
                 LengthLimitingTextInputFormatter(6),
               ],
               decoration: InputDecoration(
-                labelText: T()().personal_number__title,
+                labelText: T()().personalNumber__title,
                 prefix: const Padding(
                   padding: EdgeInsets.only(right: 4),
                   child: Text('p'),

@@ -20,6 +20,7 @@ import 'features/counter/domain/use_cases/get_counters.dart';
 import 'features/counter/domain/use_cases/increment.dart';
 import 'features/counter/domain/use_cases/reset.dart';
 import 'features/counter/domain/use_cases/reset_database_table.dart';
+import 'features/counter/domain/use_cases/set_counters.dart';
 import 'features/counter/presentation/detail/bloc/bloc.dart';
 import 'features/counter/presentation/list/bloc/bloc.dart';
 import 'features/login/data/datasources/remote/data_source.dart';
@@ -90,11 +91,12 @@ class DependencyInjection {
     di.registerLazySingleton(() => SettingsUseCaseSetHouseNumber(di()));
 
     // counter
-    di.registerFactory(() => CounterListBloc(di(), di()));
+    di.registerFactory(() => CounterListBloc(di(), di(), di()));
     di.registerFactory(() => CounterDetailBloc(di(), di(), di(), di(), di()));
     di.registerLazySingleton(() => CounterRemoteDataSource(di()));
     di.registerLazySingleton(() => CounterRepository(di()));
     di.registerLazySingleton(() => CounterUseCaseGetCounters(di()));
+    di.registerLazySingleton(() => CounterUseCaseSetCounters(di()));
     di.registerLazySingleton(() => CounterUseCaseGetCounter(di()));
     di.registerLazySingleton(() => CounterUseCaseIncrement(di()));
     di.registerLazySingleton(() => CounterUseCaseDecrement(di()));

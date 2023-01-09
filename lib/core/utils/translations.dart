@@ -25,11 +25,11 @@ class T {
   String getLanguage(String? languageCode) {
     switch (languageCode) {
       case 'de':
-        return call().settings__language_de;
+        return call().settings__languageDE;
       case 'en':
-        return call().settings__language_en;
+        return call().settings__languageEN;
       default:
-        return call().settings__language_system;
+        return call().settings__languageSystem;
     }
   }
 

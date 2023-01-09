@@ -28,6 +28,14 @@
   "@counter__confirmDelete": {
     "type": "text"
   },
+  "counter__sequence": "Reihenfolge",
+  "@counter__sequence": {
+    "type": "text"
+  },
+  "counter__changeSequence": "Reihenfolge ändern",
+  "@counter__changeSequence": {
+    "type": "text"
+  },
   "general__sessionExpired": "Die Sitzung ist abgelaufen.\nBitte melde dich erneut an.",
   "@general__sessionExpired": {
     "type": "text"
@@ -46,6 +54,10 @@
   },
   "general__done": "Fertig",
   "@general__done": {
+    "type": "text"
+  },
+  "general__save": "Speichern",
+  "@general__save": {
     "type": "text"
   },
   "general__password": "Passwort",
@@ -128,20 +140,20 @@
   "@settings__language": {
     "type": "text"
   },
-  "settings__language_de": "Deutsch",
-  "@settings__language_de": {
+  "settings__languageDE": "Deutsch",
+  "@settings__languageDE": {
     "type": "text"
   },
-  "settings__language_en": "Englisch",
-  "@settings__language_en": {
+  "settings__languageEN": "Englisch",
+  "@settings__languageEN": {
     "type": "text"
   },
-  "settings__language_system": "System",
-  "@settings__language_system": {
+  "settings__languageSystem": "System",
+  "@settings__languageSystem": {
     "type": "text"
   },
-  "personal_number__title": "Personalnummer",
-  "@personal_number__title": {
+  "personalNumber__title": "Personalnummer",
+  "@personalNumber__title": {
     "type": "text"
   }
 }

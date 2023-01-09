@@ -53,7 +53,7 @@ class CounterDetailPage extends StatelessWidget {
             body: Builder(
               builder: (_) {
                 if (state is CounterDetailLoading) {
-                  _bloc.add(CounterDetailLoaded(const CounterEntity.empty(), int.parse(id)));
+                  _bloc.add(CounterDetailLoaded(const CounterEntity.empty().copyWith(id: int.parse(id))));
                   return const AppLoadingSpinner();
                 }
 

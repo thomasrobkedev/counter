@@ -14,20 +14,21 @@ class AppTheme {
       fontFamily: 'MemoryScriptNormal',
       colorScheme: colorScheme,
       extensions: [light ? lightCustomColors : darkCustomColors],
+
       textTheme: TextTheme(
         bodyLarge: bodyMediumTextStyle.copyWith(fontSize: bodyMediumFontSize + 2),
         bodyMedium: bodyMediumTextStyle,
         bodySmall: bodyMediumTextStyle.copyWith(fontSize: bodyMediumFontSize - 2),
 
-        /// Material 2 - Globales Setzen des ListTile title fontsize wird noch nicht unterstützt. Darum der Umweg über titleMedium
+        /// Globales Setzen des ListTile title fontsize
+        /// * in Material 2 wird es noch nicht unterstützt. Darum der Umweg über titleMedium.
+        /// * in Material 3: via listTileTheme.
+        ///   https://github.com/flutter/flutter/pull/117965
+        ///   https://github.com/flutter/flutter/issues/114006
         titleMedium: bodyMediumTextStyle,
       ),
-
-      /// Material 3 - Globales Setzen des ListTile title fontsize
-      /// https://github.com/flutter/flutter/pull/117965
-      /// https://github.com/flutter/flutter/issues/114006
       //   listTileTheme: ListTileThemeData(
-      //      titleTextStyle: TextStyle(fontWeight: FontWeight.normal, fontSize: Theme.of(context).textTheme.bodyMedium?.fontSize),
+      //     titleTextStyle: bodyMediumTextStyle,
       //   ),
 
       cardTheme: CardTheme(

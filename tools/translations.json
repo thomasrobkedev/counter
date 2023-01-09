@@ -27,6 +27,14 @@
     "de": "Möchtest du diesen Zähler wirklich löschen?",
     "en": "Do you really want to delete this counter?"
   },
+  "counter__sequence": {
+    "de": "Reihenfolge",
+    "en": "Sequence"
+  },
+  "counter__changeSequence": {
+    "de": "Reihenfolge ändern",
+    "en": "Change sequence"
+  },
   "general__sessionExpired": {
     "de": "Die Sitzung ist abgelaufen.\nBitte melde dich erneut an.",
     "en": "The session has expired.\nPlease sign in again."
@@ -46,6 +54,10 @@
   "general__done": {
     "de": "Fertig",
     "en": "Done"
+  },
+  "general__save": {
+    "de": "Speichern",
+    "en": "Save"
   },
   "general__password": {
     "de": "Passwort",
@@ -127,19 +139,19 @@
     "de": "Sprache",
     "en": "Language"
   },
-  "settings__language_de": {
+  "settings__languageDE": {
     "de": "Deutsch",
     "en": "German"
   },
-  "settings__language_en": {
+  "settings__languageEN": {
     "de": "Englisch",
     "en": "English"
   },
-  "settings__language_system": {
+  "settings__languageSystem": {
     "de": "System",
     "en": "System"
   },
-  "personal_number__title":  {
+  "personalNumber__title":  {
     "de": "Personalnummer",
     "en": "Personal number"
   }

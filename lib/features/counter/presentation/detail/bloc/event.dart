@@ -11,8 +11,7 @@ abstract class CounterDetailEvent extends Equatable {
 }
 
 class CounterDetailLoaded extends CounterDetailEvent {
-  final int id;
-  const CounterDetailLoaded(super.entity, this.id);
+  const CounterDetailLoaded(super.entity);
 }
 
 class CounterDetailIncrementButtonsPressed extends CounterDetailEvent {
