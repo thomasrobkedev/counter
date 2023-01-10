@@ -78,7 +78,13 @@ class _CounterListReorderWidgetState extends State<CounterListReorderWidget> {
                     '${index + 1}.',
                     key: ValueKey(Testkey.counterList_reorder.appendWithUnderscore('${entity.id}_position')),
                   ),
-                  title: Text('${T().getByKeyname(entity.keyname)} (${entity.value})'),
+                  title: Row(
+                    children: [
+                      Text('${T().getByKeyname(entity.keyname)} ('),
+                      Text(entity.value.toString()),
+                      const Text(')'),
+                    ],
+                  ),
                   trailing: const Icon(Icons.drag_handle),
                 ),
               ),
