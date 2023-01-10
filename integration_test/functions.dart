@@ -53,6 +53,11 @@ Future<void> clearSettings() async {
   await startupApp();
 }
 
+T getWidget<T>(dynamic testkey) {
+  final finder = find.byKey(ValueKey(testkey.toString()));
+  return finder.evaluate().single.widget as T;
+}
+
 /// tap + long press
 /// --------------------------------------------------
 
@@ -95,6 +100,11 @@ Future<void> longPressAndExpect(dynamic longPressTestkey, dynamic expectTestkey)
 Future<void> longPressAndExpectText(dynamic longPressTestkey, String expectText) async {
   await longPress(longPressTestkey);
   expect(_findText(expectText), findsWidgets);
+}
+
+Future<void> drag(dynamic testkey, {double offsetX = 0.0, double offsetY = 0.0}) async {
+  await tester.drag(_find(testkey), Offset(offsetX, offsetY));
+  await tester.pumpAndSettle();
 }
 
 /// text input
@@ -158,6 +168,10 @@ Future<void> checkObscuredPassword(dynamic inputTestkey, bool expectedResult) as
   );
   final input = tester.widget<EditableText>(passwordTextFormField);
   expect(input.obscureText, expectedResult);
+}
+
+Future<void> equalsValue(dynamic a, dynamic b) async {
+  expect(a, b);
 }
 
 Future<void> equalsTrue(bool a) async {

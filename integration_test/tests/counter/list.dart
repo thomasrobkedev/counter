@@ -18,7 +18,7 @@ class CounterList implements TestWidget {
     await wait(1);
 
     /// ________________________________________________________________________________
-    /// List page: Namen, initiale Counter-Werte, Navigation zur Detail-Seite
+    /// Namen, initiale Counter-Werte, Navigation zur Detail-Seite
     /// ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
     for (var keyname in ['coffee', 'waterGlasses', 'overtime', 'cookies']) {
       await equalsString(Testkey.counterList_cardName.appendWithUnderscore(keyname), T().getByKeyname(keyname));
@@ -26,6 +26,22 @@ class CounterList implements TestWidget {
       await tapAndExpect(Testkey.counterList_card.appendWithUnderscore(keyname), Testkey.counterDetail_page);
       await equalsString(Testkey.counterDetail_title, T().getByKeyname(keyname));
       await goBack();
+      await wait(1);
     }
+
+    /// ________________________________________________________________________________
+    /// Reihenfolge ändern: entity auf 4.Position rauf und runter draggen
+    /// ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+    final testKeyListTile = Testkey.counterList_reorder.appendWithUnderscore('4');
+    final testKeyPosition = Testkey.counterList_reorder.appendWithUnderscore('4_position');
+
+    await tap(Testkey.counterList_popupMenu);
+    await tap(Testkey.counterList_popupMenu.appendWithUnderscore(CounterListPopupMenuItem.reorder.name).enabled);
+    await drag(testKeyListTile, offsetY: -500);
+    await equalsString(testKeyPosition, '1.');
+    await drag(testKeyListTile, offsetY: 60);
+    await equalsString(testKeyPosition, '2.');
+    await drag(testKeyListTile, offsetY: 500);
+    await equalsString(testKeyPosition, '4.');
   }
 }

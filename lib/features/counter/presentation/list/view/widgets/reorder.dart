@@ -53,8 +53,8 @@ class _CounterListReorderWidgetState extends State<CounterListReorderWidget> {
         ],
       ),
       body: ReorderableListView(
-        padding: const EdgeInsets.all(12),
         buildDefaultDragHandles: false,
+        padding: const EdgeInsets.all(12),
         onReorder: (oldIndex, newIndex) {
           newIndex -= oldIndex < newIndex ? 1 : 0;
           entities.insert(newIndex, entities.removeAt(oldIndex));
@@ -63,17 +63,21 @@ class _CounterListReorderWidgetState extends State<CounterListReorderWidget> {
         },
         children: entities.asMap().entries.map(
           (entry) {
+            final index = entry.key;
             final entity = entry.value;
 
-            return Card(
-              key: ValueKey<int>(entity.id),
-              margin: const EdgeInsets.all(4),
-              child: ReorderableDragStartListener(
-                key: ValueKey(Testkey.counterList_reorder.appendWithUnderscore(entity.id).toString()),
-                index: entity.index,
+            return ReorderableDragStartListener(
+              key: ValueKey(index),
+              index: index,
+              child: Card(
+                margin: const EdgeInsets.all(4),
                 child: ListTile(
+                  key: ValueKey(Testkey.counterList_reorder.appendWithUnderscore(entity.id).toString()),
                   minLeadingWidth: 8,
-                  leading: Text('${entry.key + 1}.'),
+                  leading: Text(
+                    '${index + 1}.',
+                    key: ValueKey(Testkey.counterList_reorder.appendWithUnderscore('${entity.id}_position')),
+                  ),
                   title: Text('${T().getByKeyname(entity.keyname)} (${entity.value})'),
                   trailing: const Icon(Icons.drag_handle),
                 ),
