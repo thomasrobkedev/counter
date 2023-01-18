@@ -1,7 +1,7 @@
 # .github/workflows/integration_tests.yml
 
 name: integration_tests
-on: [workflow_dispatch]
+on: [push]
 
 jobs:
   android:
